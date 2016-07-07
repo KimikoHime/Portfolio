@@ -1,4 +1,6 @@
+@import "tools/variables";
+
 body{
-    background: white;
-    color: blue;
+    background: $light;
+    color: $warm;
 }
