@@ -1,0 +1,22 @@
+{
+  "name": "laurineperard-portfolio",
+  "version": "1.0.0",
+  "description": "Laurine Peyrard's portfolio - Interface design & Front-end dev",
+  "main": "index.php",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://LaurinePeyrard@bitbucket.org/LaurinePeyrard/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "clear",
+    "minimal",
+    "flat"
+  ],
+  "author": "Laurine Peyrard",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/LaurinePeyrard/portfolio#readme"
+}

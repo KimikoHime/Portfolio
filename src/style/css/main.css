@@ -1,5 +1,19 @@
 /* line 3, ../scss/main.scss */
 body {
-  background: #FFFCF5;
+  background: url("/public/media/bg/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  color: #767877;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+/* line 12, ../scss/main.scss */
+body #login {
+  text-align: center;
+}
+/* line 15, ../scss/main.scss */
+body #login h1 {
   color: #BEB098;
+  font-family: 'Special Elite', cursive;
 }
