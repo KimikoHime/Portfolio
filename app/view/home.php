@@ -32,7 +32,7 @@
 
 <body>
     <div id="login">
-        <h1>Bienvenue</h1>
+        <h1>YUS</h1>
         <div>Désolée, c'est un peu en chantier.</div>
         <div>Je suis en train de refaire la décoration plus à mon goût.</div>
     </div>
