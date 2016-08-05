@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    opacity: 1;
+    -webkit-transition: width 0.3s; /* Safari */
+    transition: width 0.3s;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+        -webkit-transition: width 0.3s; /* Safari */
+        transition: width 0.3s;
+    }
+}

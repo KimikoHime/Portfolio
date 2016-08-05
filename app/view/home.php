@@ -32,9 +32,28 @@
 
 <body>
     <div id="login">
-        <h1>YUS</h1>
-        <div>Désolée, c'est un peu en chantier.</div>
-        <div>Je suis en train de refaire la décoration plus à mon goût.</div>
+        <h1>Bienvenue</h1>
+        <div>Désolée, c'est un peu en chantier :)</div>
+        <div>Je suis en train de refaire la décoration plus à mon goût</div>
+
+        <div id="brush">
+            <a href="" target="_blank">
+                <img src="/public/media/graph/resume.png" alt="Illustration représentant un CV" />
+            </a>
+        </div>
+        <div id="social">
+            <a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
+                <img src="/public/media/graph/linkedin.png" alt="Icône de Linkedin" />
+            </a>
+            <a href="https://twitter.com/LaurinePeyrard" target="_blank">
+                <img src="/public/media/graph/twitter.png" alt="Icône de Twitter" />
+            </a>
+            <a href="" target="_blank">
+                <img src="/public/media/graph/dribbble.png" alt="Icône de Dribbble" />
+            </a>
+        </div>
     </div>
+
+
 </body>
 </html>
