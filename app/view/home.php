@@ -37,7 +37,7 @@
         <div>Je suis en train de refaire la décoration plus à mon goût</div>
 
         <div id="brush">
-            <a href="" target="_blank">
+            <a href="/public/media/CV.pdf">
                 <img src="/public/media/graph/resume.png" alt="Illustration représentant un CV" />
             </a>
         </div>
@@ -48,8 +48,8 @@
             <a href="https://twitter.com/LaurinePeyrard" target="_blank">
                 <img src="/public/media/graph/twitter.png" alt="Icône de Twitter" />
             </a>
-            <a href="" target="_blank">
-                <img src="/public/media/graph/dribbble.png" alt="Icône de Dribbble" />
+            <a href="https://www.behance.net/peyrardlau9ebb" target="_blank">
+                <img src="/public/media/graph/behance.png" alt="Icône de Behance" />
             </a>
         </div>
     </div>
