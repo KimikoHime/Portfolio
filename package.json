@@ -18,5 +18,9 @@
   ],
   "author": "Laurine Peyrard",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/LaurinePeyrard/portfolio#readme"
+  "homepage": "https://bitbucket.org/LaurinePeyrard/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
 }
