@@ -26,47 +26,57 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 /* line 13, ../scss/main.scss */
+body #logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 75px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  padding: 25px;
+  border: 3px solid #AC4759;
+}
+/* line 25, ../scss/main.scss */
+body #logo img {
+  width: 75px;
+  height: auto;
+}
+/* line 31, ../scss/main.scss */
 body #login {
   text-align: center;
   padding-top: 20px;
 }
-/* line 17, ../scss/main.scss */
+/* line 35, ../scss/main.scss */
 body #login div {
-  margin-bottom: 5px;
   font-size: 14px;
 }
-/* line 22, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 body #login h1 {
-  color: #BEB098;
+  color: #AC4759;
   font-family: 'Special Elite', cursive;
 }
-/* line 29, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 body #brush {
   text-align: center;
   margin-top: 40px;
-  width: 50px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 150px;
-  padding: 25px;
-  border: 3px solid #AC4759;
+  margin-bottom: 30px;
 }
-/* line 40, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 body #brush img {
   width: 45px;
   height: auto;
 }
-/* line 46, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 body #social {
   margin-top: 30px;
 }
-/* line 49, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 body #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 55, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 body #social a:last-child img {
   margin-right: 0;
 }

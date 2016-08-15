@@ -9,6 +9,9 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
+// Parameters
+require __DIR__ . '/../app/support/parameters.php';
+
 // Autoload vendors
 require __DIR__ . '/../vendor/autoload.php';
 
