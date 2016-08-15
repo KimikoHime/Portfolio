@@ -32,6 +32,11 @@
 
 <body>
     <div id="login">
+
+        <div id="logo">
+            <img src="/public/media/graph/logo.png" alt="Logo" />
+        </div>
+
         <h1>Bienvenue</h1>
         <div>Désolée, c'est un peu en chantier :)</div>
         <div>Je suis en train de refaire la décoration plus à mon goût</div>
