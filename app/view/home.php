@@ -7,7 +7,15 @@
     <!-- Style -->
     <link href='/src/style/css/main.css' rel='stylesheet' type='text/css'>
     <link href='/vendor/IconHoverEffects/css/component.css' rel='stylesheet' type='text/css'>
+
     <script type="text/javascript" src="/vendor/IconHoverEffects/js/component.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+    particlesJS.load('particles-js', '/src/js/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+    </script>
 
 
     <!-- Favicon -->
@@ -34,6 +42,9 @@
 </head>
 
 <body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
     <div id="login">
 
 

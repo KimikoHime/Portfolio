@@ -15,6 +15,20 @@ a:hover {
   transition: all 0.3s;
 }
 
+/* line 15, ../scss/tools/_general.scss */
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+/* line 23, ../scss/tools/_general.scss */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 /* line 4, ../scss/main.scss */
 body {
   background: url("/public/media/bg/home.jpg") no-repeat center center fixed;

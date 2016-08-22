@@ -11,3 +11,18 @@ a{
         transition: all 0.3s;
     }
 }
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
