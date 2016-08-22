@@ -2,17 +2,17 @@
 a {
   text-decoration: none;
   opacity: 1;
-  -webkit-transition: width 0.3s;
+  -webkit-transition: all 0.3s;
   /* Safari */
-  transition: width 0.3s;
+  transition: all 0.3s;
 }
 /* line 7, ../scss/tools/_general.scss */
 a:hover {
   cursor: pointer;
   opacity: 0.8;
-  -webkit-transition: width 0.3s;
+  -webkit-transition: all 0.3s;
   /* Safari */
-  transition: width 0.3s;
+  transition: all 0.3s;
 }
 
 /* line 4, ../scss/main.scss */
@@ -23,60 +23,72 @@ body {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   color: #767877;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 /* line 13, ../scss/main.scss */
+body .hi-icon-wrap {
+  padding: 0;
+}
+/* line 18, ../scss/main.scss */
+body .hi-icon-effect-4 .hi-icon {
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 0 4px #AC4759;
+}
+/* line 23, ../scss/main.scss */
+body .hi-icon-effect-4 .hi-icon:after {
+  border: 4px dashed #AC4759;
+}
+/* line 29, ../scss/main.scss */
 body #logo {
   margin-top: 30px;
-  margin-bottom: 30px;
-  width: 75px;
-  height: 75px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 200px;
-  padding: 25px;
-  border: 3px solid #AC4759;
 }
-/* line 25, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
+body #logo a:hover {
+  opacity: 1;
+}
+/* line 36, ../scss/main.scss */
 body #logo img {
-  width: 75px;
+  width: 45px;
   height: auto;
+  margin-top: 17px;
 }
-/* line 31, ../scss/main.scss */
+/* line 43, ../scss/main.scss */
 body #login {
   text-align: center;
   padding-top: 20px;
 }
-/* line 35, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 body #login div {
   font-size: 14px;
 }
-/* line 39, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 body #login h1 {
   color: #AC4759;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Dosis', cursive;
+  font-weight: 400;
 }
-/* line 46, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 body #brush {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-/* line 51, ../scss/main.scss */
+/* line 64, ../scss/main.scss */
 body #brush img {
   width: 45px;
   height: auto;
 }
-/* line 57, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 body #social {
   margin-top: 30px;
 }
-/* line 60, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 body #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 66, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 body #social a:last-child img {
   margin-right: 0;
 }

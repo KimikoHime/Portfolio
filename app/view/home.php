@@ -6,6 +6,9 @@
 
     <!-- Style -->
     <link href='/src/style/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='/vendor/IconHoverEffects/css/component.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/vendor/IconHoverEffects/js/component.js"></script>
+
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">
@@ -27,18 +30,22 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Special+Elite|Overlock+SC' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700|Roboto:300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
     <div id="login">
 
-        <div id="logo">
-            <img src="/public/media/graph/logo.png" alt="Logo" />
+
+        <div id="logo"class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b">
+        	<a href="#" class="hi-icon">
+                <img src="/public/media/graph/logo.png" alt="Logo" />
+            </a>
         </div>
 
+
         <h1>Bienvenue</h1>
-        <div>Désolée, c'est un peu en chantier :)</div>
+        <div>Désolée, c'est un peu en chantier :)</div><br>
         <div>Je suis en train de refaire la décoration plus à mon goût</div>
 
         <div id="brush">
@@ -57,6 +64,7 @@
                 <img src="/public/media/graph/behance.png" alt="Icône de Behance" />
             </a>
         </div>
+
     </div>
 
 
