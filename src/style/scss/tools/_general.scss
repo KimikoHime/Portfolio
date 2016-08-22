@@ -3,6 +3,8 @@ a{
     opacity: 1;
     -webkit-transition: all 0.3s; /* Safari */
     transition: all 0.3s;
+    position:relative;
+    z-index:9999;
 
     &:hover{
         cursor: pointer;

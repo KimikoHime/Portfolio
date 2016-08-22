@@ -5,8 +5,10 @@ a {
   -webkit-transition: all 0.3s;
   /* Safari */
   transition: all 0.3s;
+  position: relative;
+  z-index: 9999;
 }
-/* line 7, ../scss/tools/_general.scss */
+/* line 9, ../scss/tools/_general.scss */
 a:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -15,14 +17,14 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* line 15, ../scss/tools/_general.scss */
+/* line 17, ../scss/tools/_general.scss */
 canvas {
   display: block;
   vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
-/* line 23, ../scss/tools/_general.scss */
+/* line 25, ../scss/tools/_general.scss */
 #particles-js {
   position: absolute;
   width: 100%;
