@@ -7,6 +7,17 @@
     <!-- Style -->
     <link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />
     <link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
+    <link href='/src/style/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='/vendor/IconHoverEffects/css/component.css' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="/vendor/IconHoverEffects/js/component.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+    particlesJS.load('particles-js', '/src/js/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+    </script>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">
@@ -37,9 +48,20 @@
 
     </div>
 
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
     <div id="login">
+
+
+        <div id="logo"class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b">
+        	<a href="#" class="hi-icon">
+                <img src="/public/media/graph/logo.png" alt="Logo" />
+            </a>
+        </div>
+
+
         <h1>Bienvenue</h1>
-        <div>Désolée, c'est un peu en chantier :)</div>
+        <div>Désolée, c'est un peu en chantier :)</div><br>
         <div>Je suis en train de refaire la décoration plus à mon goût</div>
 
         <div id="brush">
@@ -58,6 +80,7 @@
                 <img src="<?= MEDIA_PATH ?>graph/behance.png" alt="Icône de Behance" />
             </a>
         </div>
+
     </div>
 
     <footer>

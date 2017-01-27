@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2016-07-04 17:46:31] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"f489cd5"}
 [2016-07-04 17:46:32] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"7a4c355"}
 [2016-07-04 18:03:08] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"ef54ed5"}
@@ -198,3 +199,9 @@
 [2017-01-27 21:06:11] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"bd48597"}
 [2017-01-27 21:06:19] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"ab0310b"}
 [2017-01-27 21:06:27] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"c261560"}
+=======
+[2016-08-28 15:46:00] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"6261b76"}
+[2016-08-28 15:46:28] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"6542dc1"}
+[2016-08-28 15:46:57] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"2ffbf8e"}
+>>>>>>> 26c5d7f41cde854898f61fe6ec382caba153654d
+[2017-01-27 21:08:48] slim-app.INFO: Slim-Skeleton '/' route [] {"uid":"26c45ea"}
