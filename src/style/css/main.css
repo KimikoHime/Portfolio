@@ -39,36 +39,41 @@ body #login div {
 body #login h1 {
   color: #BEB098;
   font-family: 'Dosis', cursive;
-  font-weight: normal;
+  font-weight: 500;
   text-transform: uppercase;
+  font-size: 35px;
 }
 /* line 31, ../scss/main.scss */
 body #brush {
   text-align: center;
   margin-top: 40px;
-  width: 50px;
-  height: 50px;
+}
+/* line 35, ../scss/main.scss */
+body #brush a {
+  width: 100px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 150px;
-  padding: 25px;
+  padding: 20px 25px;
   border: 3px solid #AC4759;
+  display: block;
 }
-/* line 42, ../scss/main.scss */
-body #brush img {
+/* line 45, ../scss/main.scss */
+body #brush a img {
   width: 45px;
   height: auto;
 }
-/* line 48, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 body #social {
   margin-top: 30px;
 }
-/* line 51, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 body #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 57, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 body #social a:last-child img {
   margin-right: 0;
 }

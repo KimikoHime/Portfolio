@@ -5,6 +5,7 @@
     <title>Laurine Peyrard</title>
 
     <!-- Style -->
+    <link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />
     <link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
 
     <!-- Favicon -->
@@ -33,7 +34,7 @@
 <body>
 
     <div id="header">
-    
+
     </div>
 
     <div id="login">
@@ -59,6 +60,11 @@
         </div>
     </div>
 
+    <footer>
+        <script src="<?= SCRIPT_PATH ?>jquery.js"></script>
+        <script src="<?= SCRIPT_PATH ?>what-input.js"></script>
+        <script src="<?= SCRIPT_PATH ?>foundation.min.js"></script>
+    </footer>
 
 </body>
 </html>

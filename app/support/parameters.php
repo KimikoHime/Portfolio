@@ -1,8 +1,9 @@
 <?php
 
-define("REAL_PATH", "http://localhost/portfolio/public/index.php");
-define("PUBLIC_PATH", "http://localhost/portfolio/public/");
+define("REAL_PATH", "http://localhost/portfolio/");
+define("PUBLIC_PATH", REAL_PATH."public/");
 define("MEDIA_PATH", PUBLIC_PATH."media/");
-define("STYLE_PATH", "http://localhost/portfolio/src/style/css/");
+define("STYLE_PATH", REAL_PATH."src/style/css/");
+define("SCRIPT_PATH", REAL_PATH."src/js/");
 
 ?>
