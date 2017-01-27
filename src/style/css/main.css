@@ -33,91 +33,183 @@ canvas {
 
 /* line 4, ../scss/main.scss */
 body {
-  background: url("/portfolio/public/media/bg/home.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  color: #767877;
+  background-color: white;
+  color: #2C3E50;
   font-family: "Roboto", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
 }
-/* line 13, ../scss/main.scss */
+/* line 12, ../scss/main.scss */
+body a {
+  color: inherit;
+}
+/* line 14, ../scss/main.scss */
+body a:hover {
+  color: #AC4759;
+}
+/* line 19, ../scss/main.scss */
 body .hi-icon-wrap {
   padding: 0;
 }
-/* line 18, ../scss/main.scss */
+/* line 24, ../scss/main.scss */
 body .hi-icon-effect-4 .hi-icon {
   width: 80px;
   height: 80px;
   box-shadow: 0 0 0 4px #AC4759;
 }
-/* line 23, ../scss/main.scss */
+/* line 29, ../scss/main.scss */
 body .hi-icon-effect-4 .hi-icon:after {
   border: 4px dashed #AC4759;
 }
-/* line 29, ../scss/main.scss */
-body #logo {
-  margin-top: 30px;
+/* line 35, ../scss/main.scss */
+body .clear {
+  clear: both;
 }
-/* line 32, ../scss/main.scss */
-body #logo a:hover {
-  opacity: 1;
-}
-/* line 36, ../scss/main.scss */
-body #logo img {
-  width: 45px;
-  height: auto;
-  margin-top: 17px;
+/* line 39, ../scss/main.scss */
+body .row {
+  max-width: none;
 }
 /* line 43, ../scss/main.scss */
-body #login {
-  text-align: center;
-  padding-top: 20px;
-}
-/* line 47, ../scss/main.scss */
-body #login div {
-  font-size: 14px;
-}
-/* line 51, ../scss/main.scss */
-body #login h1 {
-  color: #BEB098;
-  font-family: 'Dosis', cursive;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 25px;
-  margin-top: 15px;
-}
-/* line 62, ../scss/main.scss */
-body #brush {
-  text-align: center;
-  margin-top: 40px;
-}
-/* line 66, ../scss/main.scss */
-body #brush a {
-  width: 100px;
-  height: 100px;
+body .container {
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 150px;
-  padding: 20px 25px;
-  border: 3px solid #AC4759;
-  display: block;
 }
-/* line 76, ../scss/main.scss */
-body #brush a img {
-  width: 45px;
+/* line 49, ../scss/main.scss */
+body .text-right {
+  text-align: right;
+}
+/* line 53, ../scss/main.scss */
+body .align-left {
+  padding-left: 0;
+}
+/* line 57, ../scss/main.scss */
+body .align-right {
+  padding-right: 0;
+}
+/* line 61, ../scss/main.scss */
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 67, ../scss/main.scss */
+body .hidden {
+  visibility: hidden;
+}
+/* line 71, ../scss/main.scss */
+body .button {
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #AC4759;
+  font-family: 'Roboto', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 12px;
+  padding: 8px 15px 7px 15px;
+}
+/* line 83, ../scss/main.scss */
+body .button:hover, body .button:active, body .button:focus {
+  background-color: #BEB098;
+}
+/* line 88, ../scss/main.scss */
+body #menu {
+  background-color: white;
+  font-family: 'Dosis', Arial, sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+}
+/* line 96, ../scss/main.scss */
+body #menu #logo {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 15px;
+}
+/* line 105, ../scss/main.scss */
+body #menu #name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+  color: #AC4759;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+/* line 114, ../scss/main.scss */
+body #menu #job {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  margin-top: 2px;
+}
+/* line 122, ../scss/main.scss */
+body #menu ul {
+  margin-top: 18px;
+  float: right;
+}
+/* line 126, ../scss/main.scss */
+body #menu ul li {
+  list-style: none;
+  float: left;
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+/* line 138, ../scss/main.scss */
+body #header {
+  text-align: center;
+  padding-top: 50px;
+}
+/* line 142, ../scss/main.scss */
+body #header #picture {
+  background: url("/portfolio/public/media/bg/home.jpg") no-repeat center 90%;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 430px;
+}
+/* line 150, ../scss/main.scss */
+body #header #intro {
+  margin-top: 70px;
+  position: relative;
+  z-index: 900;
+}
+/* line 156, ../scss/main.scss */
+body #header #intro #face img {
+  width: 100px;
   height: auto;
 }
-/* line 84, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
+body #header #intro #job {
+  font-family: 'Dosis', Arial, sans-serif;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+/* line 174, ../scss/main.scss */
 body #social {
   margin-top: 30px;
 }
-/* line 87, ../scss/main.scss */
+/* line 177, ../scss/main.scss */
 body #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 93, ../scss/main.scss */
+/* line 183, ../scss/main.scss */
 body #social a:last-child img {
   margin-right: 0;
+}
+/* line 190, ../scss/main.scss */
+body #content {
+  padding: 50px 30px;
 }
