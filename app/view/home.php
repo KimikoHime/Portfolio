@@ -5,7 +5,7 @@
     <title>Laurine Peyrard</title>
 
     <!-- Style -->
-    <link href='/src/style/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">
@@ -27,29 +27,34 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Special+Elite|Overlock+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+
+    <div id="header">
+    
+    </div>
+
     <div id="login">
         <h1>Bienvenue</h1>
         <div>Désolée, c'est un peu en chantier :)</div>
         <div>Je suis en train de refaire la décoration plus à mon goût</div>
 
         <div id="brush">
-            <a href="/public/media/CV.pdf">
-                <img src="/public/media/graph/resume.png" alt="Illustration représentant un CV" />
+            <a href="<?= MEDIA_PATH ?>media/CV.pdf">
+                <img src="<?= MEDIA_PATH ?>graph/resume.png" alt="Illustration représentant un CV" />
             </a>
         </div>
         <div id="social">
             <a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
-                <img src="/public/media/graph/linkedin.png" alt="Icône de Linkedin" />
+                <img src="<?= MEDIA_PATH ?>graph/linkedin.png" alt="Icône de Linkedin" />
             </a>
             <a href="https://twitter.com/LaurinePeyrard" target="_blank">
-                <img src="/public/media/graph/twitter.png" alt="Icône de Twitter" />
+                <img src="<?= MEDIA_PATH ?>graph/twitter.png" alt="Icône de Twitter" />
             </a>
             <a href="https://www.behance.net/peyrardlau9ebb" target="_blank">
-                <img src="/public/media/graph/behance.png" alt="Icône de Behance" />
+                <img src="<?= MEDIA_PATH ?>graph/behance.png" alt="Icône de Behance" />
             </a>
         </div>
     </div>

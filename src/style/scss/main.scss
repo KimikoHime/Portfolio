@@ -2,7 +2,7 @@
 @import "tools/general";
 
 body{
-    background: url("/public/media/bg/home.jpg") no-repeat center center fixed;
+    background: url("/portfolio/public/media/bg/home.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: auto;
@@ -21,7 +21,9 @@ body{
 
         h1{
             color: $warm;
-            font-family: 'Special Elite', cursive;
+            font-family: 'Dosis', cursive;
+            font-weight: normal;
+            text-transform: uppercase;
 
         }
     }
