@@ -128,7 +128,7 @@
 	<div id="content">
 		<div class="container">
 
-			<div class="row" class="project">
+			<div class="row project">
 				<div class="small-12 medium-6 large-4 columns">
 					<div class="title">Android project</div>
 					<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
@@ -138,17 +138,17 @@
 				</div>
 			</div>
 
-			<div class="row" class="project">
+			<div class="row project">
 				<div class="small-12 medium-6 large-8 columns">
 					<div class="image"></div>
 				</div>
 				<div class="small-12 medium-6 large-4 columns">
-					<div class="title">Web project</div>
-					<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled.</p>
+					<div class="title text-right">Web project</div>
+					<p class="right">Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled.</p>
 				</div>
 			</div>
 
-			<div class="row" class="project">
+			<div class="row project">
 				<div class="small-12 medium-6 large-4 columns">
 					<div class="title">Print</div>
 					<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
@@ -158,19 +158,25 @@
 				</div>
 			</div>
 
-
-			<hr>
+			<div class="row">
+				<hr>
+			</div>
+			
 
 			<div class="row">
-				<div class="small-12 medium-6 large-4 columns thumbnail">
+				<div class="small-12 medium-6 large-3 columns thumbnail">
 					<div class="image"></div>
 				</div>
-				<div class="small-12 medium-6 large-4 columns thumbnail">
+				<div class="small-12 medium-6 large-3 columns thumbnail">
 					<div class="image"></div>
 				</div>
-				<div class="small-12 medium-6 large-4 columns thumbnail">
+				<div class="small-12 medium-6 large-3 columns thumbnail">
 					<div class="image"></div>
 				</div>
+				<div class="small-12 medium-6 large-3 columns thumbnail">
+					<div class="image"></div>
+				</div>
+			
 			</div>
 
 		</div>
