@@ -12,13 +12,13 @@
 		<div class="small-12 medium-6 large-8 columns text-right">
 			<ul>
 				<li>
-					<a href="<?php echo PUBLIC_PATH ?>">Portfolio</a>
+					<a href="">Projet précédent</a>
 				</li>
 				<li>
-					<a href="<?php echo PUBLIC_PATH ?>about">A propos</a>
+					<a href="">Accueil</a>
 				</li>
 				<li>
-					<a href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">CV</a>
+					<a href="">Projet suivant</a>
 				</li>
 			</ul>
 		</div>

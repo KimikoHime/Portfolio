@@ -70,36 +70,44 @@
 	<div class="content">
 		<div class="container">
 
-			<div class="row project">
-				<div class="small-12 medium-6 large-4 columns">
-					<div class="title">Android project</div>
-					<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
+			<a href="<?php echo PUBLIC_PATH ?>projet1">
+				<div class="row project">
+					<div class="small-12 medium-6 large-4 columns">
+						<div class="title">WhatUWear</div>
+						<p>Design Android pour une application de gestion de dressing - en collaboration avec le développeur Android<br/>
+						Finitions de l'intégration sur mobile via le stoyboard<br/>
+						Design et intégration responsive des interfaces web : pages de partage, landing de l'application.</p>
+					</div>
+					<div class="small-12 medium-6 large-8 columns">
+						<div class="image"></div>
+					</div>
 				</div>
-				<div class="small-12 medium-6 large-8 columns">
-					<div class="image"></div>
-				</div>
-			</div>
+			</a>
 
-			<div class="row project">
-				<div class="small-12 medium-6 large-8 columns">
-					<div class="image"></div>
+			<a href="<?php echo PUBLIC_PATH ?>projet2">
+				<div class="row project">
+					<div class="small-12 medium-6 large-8 columns">
+						<div class="image"></div>
+					</div>
+					<div class="small-12 medium-6 large-4 columns">
+						<div class="title text-right">Applications KOA?</div>
+						<p class="right">Design du site de présentation des applications mobiles de la famille KOA?. Intégration responsive via le CMS Cockpit.</p>
+					</div>
 				</div>
-				<div class="small-12 medium-6 large-4 columns">
-					<div class="title text-right">Web project</div>
-					<p class="right">Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled.</p>
-				</div>
-			</div>
+			</a>
 
-			<div class="row project">
-				<div class="small-12 medium-6 large-4 columns">
-					<div class="title">Print</div>
-					<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
+			<a href="<?php echo PUBLIC_PATH ?>projet1">
+				<div class="row project">
+					<div class="small-12 medium-6 large-4 columns">
+						<div class="title">Print</div>
+						<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
+					</div>
+					<div class="small-12 medium-6 large-8 columns">
+						<div class="image"></div>
+					</div>
 				</div>
-				<div class="small-12 medium-6 large-8 columns">
-					<div class="image"></div>
-				</div>
-			</div>
-
+			</a>
+			
 			<div class="row">
 				<hr>
 			</div>
