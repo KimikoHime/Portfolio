@@ -12,7 +12,7 @@
 
 	<div class="clear"></div>
 
-	<div id="header" class="row">
+	<div id="header" class="row padding-top">
 		<div id="particles-js"></div>
 		<!-- <div class="container"> -->
 
@@ -70,7 +70,7 @@
 	<div class="content">
 		<div class="container">
 
-			<a href="<?php echo PUBLIC_PATH ?>projet1">
+			<a href="<?php echo PUBLIC_PATH ?>projet/1">
 				<div class="row project">
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title">WhatUWear</div>
@@ -84,7 +84,7 @@
 				</div>
 			</a>
 
-			<a href="<?php echo PUBLIC_PATH ?>projet2">
+			<a href="<?php echo PUBLIC_PATH ?>projet/2">
 				<div class="row project">
 					<div class="small-12 medium-6 large-8 columns">
 						<div class="image"></div>
@@ -96,7 +96,7 @@
 				</div>
 			</a>
 
-			<a href="<?php echo PUBLIC_PATH ?>projet1">
+			<a href="<?php echo PUBLIC_PATH ?>projet/3">
 				<div class="row project">
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title">Print</div>

@@ -14,19 +14,7 @@ $app->get('/about', function ($request, $response, $args) {
 })->setName('about');
 
 // Projet 1
-$app->get('/projet1', function ($request, $response, $args) {
+$app->get('/projet/{id}', function ($request, $response, $args) {
 	// Render about view
-	return $this->renderer->render($response, 'projet1.php', $args);
-})->setName('projet1');
-
-// Projet 2
-$app->get('/projet2', function ($request, $response, $args) {
-	// Render about view
-	return $this->renderer->render($response, 'projet2.php', $args);
-})->setName('projet2');
-
-// Projet 1
-$app->get('/projet3', function ($request, $response, $args) {
-	// Render about view
-	return $this->renderer->render($response, 'projet3.php', $args);
-})->setName('projet3');
+	return $this->renderer->render($response, 'project.php', ['id' => $args['id']]);
+})->setName('projet');
