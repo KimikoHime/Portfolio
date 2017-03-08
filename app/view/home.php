@@ -55,8 +55,8 @@
 						<a href="https://twitter.com/LaurinePeyrard" target="_blank">
 							<img src="<?= MEDIA_PATH ?>graph/twitter.png" alt="Icône de Twitter" />
 						</a>
-						<a href="https://www.behance.net/peyrardlau9ebb" target="_blank">
-							<img src="<?= MEDIA_PATH ?>graph/behance.png" alt="Icône de Behance" />
+						<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
+							<img src="<?= MEDIA_PATH ?>graph/instagram.png" alt="Icône d'Instagram" />
 						</a>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 <div id="menu" class="menu row">
-	<div class="container">
+	
 		<div class="small-12 medium-6 large-4 columns">
 			<a href="<?php echo PUBLIC_PATH ?>">
 				<div id="logo">
@@ -22,5 +22,5 @@
 				</li>
 			</ul>
 		</div>
-	</div>
+	
 </div>

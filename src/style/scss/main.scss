@@ -107,6 +107,8 @@ body{
 		width: 100%;
 		background-color: white;
 		z-index: 999;
+		padding-left: 5%;
+		
 
 		#logo{
 			margin-top: 15px;
@@ -135,6 +137,7 @@ body{
 		}
 
 		ul{
+			padding-right: 10%;
 			margin-top: 18px;
 			float: right;
 
@@ -154,27 +157,89 @@ body{
 		padding-top: 60px;
 	}
 
-	#banner{
-		background: url("/portfolio/public/media/bg/banner.jpg") no-repeat center 68%;
-		background-size: cover;
-		height: 350px; 
-		margin-bottom: 50px;
-		font-family: "Dosis", Arial, sans-serif;
+	#intro{
+		margin-left: 12%;
+		margin-right: 15%;
+		margin-top: 0px;
 
-		.container{
-			height: 100%;
-			position: relative;
+		.title{
+			font-family: "Dosis", Arial, sans-serif;
+			margin-bottom: 30px;
+			font-size: 35px;
+			
+			font-weight: 500;
+			margin-top: 20px;
+		}
 
-			.title{
-				color: white;
-				display: inline-block;
-				font-weight: 600;
-				text-transform: uppercase;
-				font-size: 60px;
-				position: absolute;
-				bottom: -22px;
+		p{
+			font-weight: 400;
+			font-size: 15px;
+		}
+
+		#more{
+			margin-top: 30px;
+			font-size: 14px;
+			font-weight: 500;
+
+			.tag{
+				margin-bottom: 15px;
 			}
 
+			ul{
+				margin-left: 0;
+				li{
+					list-style: none;
+					padding-bottom: 10px;
+					padding-top: 10px;
+					border-bottom: 2px solid $grey;
+
+					&:last-child{
+						border-bottom: 0;
+					}
+
+				}
+			}
+		}
+	}
+
+	#banner{
+		background: url("/portfolio/public/media/id/about.jpg") no-repeat;
+		background-size: cover;
+		background-position: right center;
+	
+		font-family: "Dosis", Arial, sans-serif;
+		position: relative;
+
+		.title{
+			color: white;
+			display: inline-block;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 60px;
+			position: absolute;
+			top: 0;
+			left: 67px;
+			transform: rotate(90deg);
+			transform-origin: left top 0;
+		}
+
+		#social{
+			position: absolute;
+			bottom: 15px;
+			right: 30px;
+
+			a{
+				img{
+					width: 25px;
+					margin-right: 20px;
+				}
+
+				&:last-child{
+					img{
+						margin-right: 0;
+					}
+				}
+			}
 		}
 	}
 
@@ -262,61 +327,6 @@ body{
 				text-align: right;
 			}
 		}
-
-
-		#about{
-			margin-top: 75px;
-			.intro{
-				font-family: "Dosis", Arial, sans-serif;
-				margin-bottom: 30px;
-				font-size: 35px;
-				color: $primary;
-				font-weight: 500;
-				margin-top: 20px;
-			}
-
-			p{
-				font-weight: 400;
-				font-size: 15px;
-			}
-		}
-
-		#more{
-			margin-top: 75px;
-			font-size: 15px;
-
-			
-
-			ul{
-				margin-left: 0;
-				li{
-					list-style: none;
-					padding-bottom: 10px;
-						padding-top: 10px;
-						border-bottom: 2px solid $grey;
-
-						&:last-child{
-							border-bottom: 0;
-						}
-
-				}
-			}
-
-			#facts{
-				text-align: center;
-				width: 275px;
-				.tag{
-					background-color: $warm;
-				}
-				ul{
-					li{
-						
-						
-					}
-				}
-			}
-		}
-
 
 
 		#photo{
