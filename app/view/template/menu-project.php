@@ -14,7 +14,7 @@
 
 				<?php if($project >1): ?>
 					<li>
-						<a href="<?php echo PUBLIC_PATH ?>project/<?php echo $project-1?>">Précédent</a>
+						<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $project-1?>">Précédent</a>
 					</li>
 				<?php endif ?>
 
@@ -24,7 +24,7 @@
 
 				<?php if($project <5): ?>
 				<li>
-					<a href="<?php echo PUBLIC_PATH ?>project/<?php echo $project+1?>">Suivant</a>
+					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $project+1?>">Suivant</a>
 				</li>
 				<?php endif ?>
 			</ul>
