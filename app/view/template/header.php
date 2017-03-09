@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8"/>
-	<title>Laurine Peyrard</title>
+	<title>Laurine Peyrard | Portfolio</title>
 
 	<!-- Style -->
 	<link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />

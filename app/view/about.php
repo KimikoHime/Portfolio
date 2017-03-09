@@ -4,11 +4,14 @@
 
 	<?php include('template/menu.php') ?>
 
-	<div class="row padding-top">
+	<div class="row padding-top valign">
 		<div class="small-12 medium-6 columns">
+
+
 			<div id="intro">
 				<div class="row">
-					<div class="title">Enchantée ! Moi c'est Laurine</div>
+					<div class="title">Enchantée !</div>
+					<div class="subtitle">Je m'appelle Laurine et j'ai hâte de vous connaître</div>
 					<p>Je suis une jeune <b>designer web</b> actuellement en poste sur Annecy. Je m'intéresse à toutes sortes de projets mais je fais majoritairement des <b>interfaces web et mobiles</b>, des visuels de communication, des icônes et du print.</p>
 					<p>Ex-développeuse web, j'ai enfin trouvé ma vraie passion, ce qui ne m'empêche pas d'intégrer mes maquettes web responsive ainsi que d'aider à l'esthétique des projets mobiles sur lesquels je travaille actuellement :).</p>
 				</div>
