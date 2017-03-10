@@ -19,10 +19,14 @@ body {
 
     &:hover {
       cursor: pointer;
-      opacity: 0.8;
+    
       -webkit-transition: all 0.3s; /* Safari */
       transition: all 0.3s;
-      color: $primary;
+      color: inherit;
+
+      .title{
+        color: $primary;
+      }
     }
   }
 

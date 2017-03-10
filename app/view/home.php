@@ -71,38 +71,36 @@
 		<div class="container">
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/1">
-				<div class="row project">
+				<div class="row project valign">
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title">WhatUWear</div>
-						<p>Design Android pour une application de gestion de dressing - en collaboration avec le développeur Android<br/>
-						Finitions de l'intégration sur mobile via le stoyboard<br/>
-						Design et intégration responsive des interfaces web : pages de partage, landing de l'application.</p>
+						<div class="title">WhatUWear mobile</div>
+						<p>Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.</p>
 					</div>
-					<div class="small-12 medium-6 large-8 columns">
+					<div class="small-12 medium-6 large-8 columns align-right">
 						<div class="image"></div>
 					</div>
 				</div>
 			</a>
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/2">
-				<div class="row project">
-					<div class="small-12 medium-6 large-8 columns">
+				<div class="row project valign middle-project">
+					<div class="small-12 medium-6 large-8 columns align-left">
 						<div class="image"></div>
 					</div>
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title text-right">Applications KOA?</div>
-						<p class="right">Design du site de présentation des applications mobiles de la famille KOA?. Intégration responsive via le CMS Cockpit.</p>
+						<div class="title text-right">WhatUWear web</div>
+						<p class="right">Design et intégration responsive des interfaces web liées à l'application mobile : landing promotionnelle de l'application, pages de partage de vêtements et de tenues. Mise en place au sein d'un projet Symfony existant via des données serveur en JSON.</p>
 					</div>
 				</div>
 			</a>
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/3">
-				<div class="row project">
+				<div class="row project valign">
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title">Print</div>
-						<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
+						<div class="title">KOA Applications</div>
+						<p>Design et intégration du site vitrine des applications mobiles de la famille KOA. Utilisation de Slim PHP pour la structure du site et les routes, du CMS Cockpit pour la gestion dynamique et simplifiée du contenu, et de Foundation pour le responsive.</p>
 					</div>
-					<div class="small-12 medium-6 large-8 columns">
+					<div class="small-12 medium-6 large-8 columns align-right">
 						<div class="image"></div>
 					</div>
 				</div>
@@ -113,19 +111,30 @@
 			</div>
 			
 
-			<div class="row">
-				<div class="small-12 medium-6 large-3 columns thumbnail">
-					<div class="image"></div>
-				</div>
-				<div class="small-12 medium-6 large-3 columns thumbnail">
-					<div class="image"></div>
-				</div>
-				<div class="small-12 medium-6 large-3 columns thumbnail">
-					<div class="image"></div>
-				</div>
-				<div class="small-12 medium-6 large-3 columns thumbnail">
-					<div class="image"></div>
-				</div>
+			<div class="row" id="thumb-row">
+				<a href="<?php echo PUBLIC_PATH ?>projet/4">
+					<div class="small-12 medium-6 large-4 columns thumbnail">
+						<div class="image">
+							<div class="title">Badges</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="<?php echo PUBLIC_PATH ?>projet/5">
+					<div class="small-12 medium-6 large-4 columns thumbnail">
+						<div class="image">
+							<div class="title">Carte de visite</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="<?php echo PUBLIC_PATH ?>projet/6">
+					<div class="small-12 medium-6 large-4 columns thumbnail">
+						<div class="image">
+							<div class="title">Kakemono</div>
+						</div>
+					</div>
+				</a>
 			
 			</div>
 

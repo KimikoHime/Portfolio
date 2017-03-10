@@ -1,0 +1,35 @@
+#project{
+  .container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 75px;
+  }
+
+    #image{
+      height: 1500px;
+      background-color: $warm;
+      position: relative;
+      padding-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    #title{
+      font-family: "Dosis", Arial, sans-serif;
+      color: white;
+      font-size: 35px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-left: 30px;
+    }
+
+    #description{
+      font-size: 18px;
+    }
+
+    #infos{
+      margin-top: 50px;
+      font-weight: 500;
+      font-size: 15px;
+      text-align: right;
+    }
+  }
