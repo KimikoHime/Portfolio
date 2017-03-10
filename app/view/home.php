@@ -73,11 +73,11 @@
 			<a href="<?php echo PUBLIC_PATH ?>projet/1">
 				<div class="row project valign">
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title">WhatUWear mobile</div>
-						<p>Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.</p>
+						<div class="title"><?= $projects[0]->{'name'} ?></div>
+						<p><?= $projects[0]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image"></div>
+						<div class="image project1"></div>
 					</div>
 				</div>
 			</a>
@@ -85,11 +85,11 @@
 			<a href="<?php echo PUBLIC_PATH ?>projet/2">
 				<div class="row project valign middle-project">
 					<div class="small-12 medium-6 large-8 columns align-left">
-						<div class="image"></div>
+						<div class="image project2"></div>
 					</div>
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title text-right">WhatUWear web</div>
-						<p class="right">Design et intégration responsive des interfaces web liées à l'application mobile : landing promotionnelle de l'application, pages de partage de vêtements et de tenues. Mise en place au sein d'un projet Symfony existant via des données serveur en JSON.</p>
+						<div class="title text-right"><?= $projects[1]->{'name'} ?></div>
+						<p class="right"<?= $projects[1]->{'description'} ?></p>
 					</div>
 				</div>
 			</a>
@@ -97,11 +97,11 @@
 			<a href="<?php echo PUBLIC_PATH ?>projet/3">
 				<div class="row project valign">
 					<div class="small-12 medium-6 large-4 columns">
-						<div class="title">KOA Applications</div>
-						<p>Design et intégration du site vitrine des applications mobiles de la famille KOA. Utilisation de Slim PHP pour la structure du site et les routes, du CMS Cockpit pour la gestion dynamique et simplifiée du contenu, et de Foundation pour le responsive.</p>
+						<div class="title"><?= $projects[2]->{'name'} ?></div>
+						<p><?= $projects[2]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image"></div>
+						<div class="image project3"></div>
 					</div>
 				</div>
 			</a>
@@ -114,24 +114,24 @@
 			<div class="row" id="thumb-row">
 				<a href="<?php echo PUBLIC_PATH ?>projet/4">
 					<div class="small-12 medium-6 large-4 columns thumbnail">
-						<div class="image">
-							<div class="title">Badges</div>
+						<div class="image project4">
+							<div class="title"><?= $projects[3]->{'name'} ?></div>
 						</div>
 					</div>
 				</a>
 
 				<a href="<?php echo PUBLIC_PATH ?>projet/5">
 					<div class="small-12 medium-6 large-4 columns thumbnail">
-						<div class="image">
-							<div class="title">Carte de visite</div>
+						<div class="image project5">
+							<div class="title"><?= $projects[4]->{'name'} ?></div>
 						</div>
 					</div>
 				</a>
 
 				<a href="<?php echo PUBLIC_PATH ?>projet/6">
 					<div class="small-12 medium-6 large-4 columns thumbnail">
-						<div class="image">
-							<div class="title">Kakemono</div>
+						<div class="image project6">
+							<div class="title"><?= $projects[5]->{'name'} ?></div>
 						</div>
 					</div>
 				</a>

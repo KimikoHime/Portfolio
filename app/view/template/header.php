@@ -32,3 +32,9 @@
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
 </head>
+
+<?php
+	$json = file_get_contents(REAL_PATH."/src/projects.json");
+	$projects = json_decode($json);
+	$projet1name = $projects[0]->{'name'};
+?>

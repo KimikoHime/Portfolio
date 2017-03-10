@@ -1,6 +1,7 @@
 <?php 
 	include('template/header.php');
-	$project = $data["id"];
+	$projectID = $data["id"];
+	//$project = $projects["$projectId"];
 ?>
 
 <body>
@@ -14,7 +15,7 @@
 			<div class="row">
 				<div class="small-12 columns">
 					<div id="image">
-						<div id="title">Projet <?php echo $project ?></div>
+						<div id="title">Projet <?= $projectID ?></div>
 					</div>
 					
 				</div>

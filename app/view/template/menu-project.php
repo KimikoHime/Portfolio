@@ -12,9 +12,9 @@
 		<div class="small-12 medium-6 large-8 columns text-right">
 			<ul>
 
-				<?php if($project >1): ?>
+				<?php if($projectID >1): ?>
 					<li>
-						<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $project-1?>">Précédent</a>
+						<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID-1?>">Précédent</a>
 					</li>
 				<?php endif ?>
 
@@ -22,9 +22,9 @@
 					<a href="<?php echo PUBLIC_PATH ?>">Accueil</a>
 				</li>
 
-				<?php if($project <5): ?>
+				<?php if($projectID <5): ?>
 				<li>
-					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $project+1?>">Suivant</a>
+					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID+1?>">Suivant</a>
 				</li>
 				<?php endif ?>
 			</ul>

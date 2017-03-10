@@ -225,7 +225,7 @@ body canvas {
 }
 /* line 62, ../scss/home.scss */
 .content .project {
-  margin: 75px 0;
+  margin: 100px 0;
   margin-left: 5%;
 }
 /* line 66, ../scss/home.scss */
@@ -257,20 +257,33 @@ body canvas {
   width: 100%;
   height: 500px;
   background-color: #BEB098;
+  background-size: cover;
 }
-/* line 97, ../scss/home.scss */
+/* line 96, ../scss/home.scss */
+.content .project .image.project1 {
+  background: url("/portfolio/public/media/projects/wuw-mobile.jpg") no-repeat left center;
+}
+/* line 100, ../scss/home.scss */
+.content .project .image.project2 {
+  background: url("/portfolio/public/media/projects/wuw-web.png") no-repeat left center;
+}
+/* line 104, ../scss/home.scss */
+.content .project .image.project3 {
+  background: url("/portfolio/public/media/projects/koa.png") no-repeat left center;
+}
+/* line 110, ../scss/home.scss */
 .content #thumb-row {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 75px;
   margin-bottom: 75px;
 }
-/* line 103, ../scss/home.scss */
+/* line 116, ../scss/home.scss */
 .content #thumb-row .thumbnail {
   border: none;
   box-shadow: none;
 }
-/* line 107, ../scss/home.scss */
+/* line 120, ../scss/home.scss */
 .content #thumb-row .thumbnail .title {
   font-family: 'Dosis', Arial, sans-serif;
   font-weight: 600;
@@ -279,7 +292,7 @@ body canvas {
   letter-spacing: 1.2px;
   text-align: center;
 }
-/* line 116, ../scss/home.scss */
+/* line 129, ../scss/home.scss */
 .content #thumb-row .thumbnail .image {
   width: 100%;
   height: 300px;
