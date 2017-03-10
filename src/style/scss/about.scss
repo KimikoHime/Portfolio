@@ -1,0 +1,95 @@
+/*** About ***/
+
+#intro{
+  margin-left: 12%;
+  margin-right: 15%;
+  margin-top: 0px;
+
+  .title{
+    font-family: "Dosis", Arial, sans-serif;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .subtitle{
+    font-family: "Dosis", Arial, sans-serif;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  #more{
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 500;
+
+    .tag{
+      margin-bottom: 15px;
+    }
+
+    ul{
+      margin-left: 0;
+      li{
+        list-style: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 2px solid $grey;
+
+        &:last-child{
+          border-bottom: 0;
+        }
+
+      }
+    }
+  }
+}
+
+/*** About ***/
+
+#banner{
+  background: url("/portfolio/public/media/bg/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: right center;
+
+  font-family: "Dosis", Arial, sans-serif;
+  position: relative;
+
+  .title{
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 65px;
+    position: absolute;
+    top: 0;
+    left: 73px;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+  }
+
+  #social{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+
+    a{
+      img{
+        width: 25px;
+        margin-right: 20px;
+      }
+
+      &:last-child{
+        img{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

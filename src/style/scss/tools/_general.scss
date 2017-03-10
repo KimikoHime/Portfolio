@@ -1,24 +1,115 @@
-a{
+@import "variables";
+
+body {
+  background-color: white;
+  color: $dark;
+  font-family: "Roboto", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-osx-font-smoothing: grayscale;
+
+  a {
     text-decoration: none;
     opacity: 1;
     -webkit-transition: all 0.3s; /* Safari */
     transition: all 0.3s;
-    position:relative;
-    z-index:9999;
+    position: relative;
+    z-index: 9999;
+    color: inherit;
 
-    &:hover{
-        cursor: pointer;
-        opacity: 0.8;
-        -webkit-transition: all 0.3s; /* Safari */
-        transition: all 0.3s;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+      -webkit-transition: all 0.3s; /* Safari */
+      transition: all 0.3s;
+      color: $primary;
     }
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .row {
+    max-width: none;
+  }
+
+  .container {
+    //max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .align-left {
+    padding-left: 0;
+  }
+
+  .align-right {
+    padding-right: 0;
+  }
+
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .padding-top{
+    padding-top: 60px;
+  }
+
+  .button {
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: $primary;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 15px 7px 15px;
+
+    &:hover, &:active, &:focus {
+      background-color: $warm;
+    }
+  }
+
+  .valign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tag {
+    padding: 3px 10px;
+    background-color: $primary;
+    color: white;
+    font-family: "Dosis", Arial, sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+  }
+
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
+  
 
 /* ---- particles.js container ---- */
 

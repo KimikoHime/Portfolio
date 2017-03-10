@@ -1,0 +1,52 @@
+.menu{
+  background-color: white;
+  font-family: 'Dosis', Arial, sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  padding-left: 5%;
+
+
+  #logo{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 15px;
+  }
+
+  #name{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+
+  #job{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-top: 2px;
+  }
+
+  ul{
+    padding-right: 10%;
+    margin-top: 18px;
+    float: right;
+
+    li{
+      list-style: none;
+      float: left;
+      margin-left: 45px;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+  }
+}

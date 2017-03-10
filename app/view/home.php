@@ -2,11 +2,11 @@
 
 <body>
 
-<script>
-		particlesJS.load('particles-js', '<?= SCRIPT_PATH ?>particles.json', function() {
+	<!--<script>
+		/*particlesJS.load('particles-js', '<?= SCRIPT_PATH ?>particles.json', function() {
 		  console.log('callback - particles.js config loaded');
-		});
-	</script>
+		});*/
+	</script>-->
 
 	<?php include('template/menu.php') ?>
 
