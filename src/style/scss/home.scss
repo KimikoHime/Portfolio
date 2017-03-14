@@ -28,6 +28,7 @@
 			font-weight: 600;
 			font-size: 18px;
 			letter-spacing: 1.2px;
+			text-transform: uppercase;
 		}
 	}
 
@@ -92,18 +93,6 @@
 			height: 500px;
 			background-color: $warm;
 			background-size: cover;
-
-			&.project1{
-				background: url("/portfolio/public/media/projects/wuw-mobile.jpg") no-repeat left center;
-			}
-
-			&.project2{
-				background: url("/portfolio/public/media/projects/wuw-web.png") no-repeat left center;
-			}
-
-			&.project3{
-				background: url("/portfolio/public/media/projects/koa.png") no-repeat left center;
-			}
 		}
 	}
 

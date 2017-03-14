@@ -38,7 +38,7 @@
 					</div>
 
 					<div id="job">
-						Design web et mobile
+						Graphic design
 
 						<div>
 							<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
@@ -77,7 +77,7 @@
 						<p><?= $projects[0]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image project1"></div>
+						<div class="image project1" style="background-image: url('<?= PROJECT_PATH.$projects[0]->{'thumb'} ?>');"></div>
 					</div>
 				</div>
 			</a>
@@ -85,11 +85,11 @@
 			<a href="<?php echo PUBLIC_PATH ?>projet/2">
 				<div class="row project valign middle-project">
 					<div class="small-12 medium-6 large-8 columns align-left">
-						<div class="image project2"></div>
+						<div class="image project2" style="background-image: url('<?= PROJECT_PATH.$projects[1]->{'thumb'} ?>');"></div>
 					</div>
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title text-right"><?= $projects[1]->{'name'} ?></div>
-						<p class="right"<?= $projects[1]->{'description'} ?></p>
+						<p class="right"><?= $projects[1]->{'description'} ?></p>
 					</div>
 				</div>
 			</a>
@@ -101,7 +101,7 @@
 						<p><?= $projects[2]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image project3"></div>
+						<div class="image project3" style="background-image: url('<?= PROJECT_PATH.$projects[3]->{'thumb'} ?>');"></div>
 					</div>
 				</div>
 			</a>

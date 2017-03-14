@@ -4,27 +4,31 @@
         "name": "WhatUWear mobile",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "link": "http://google.fr",
-        "image": "wuw-mobile.jpg"
+        "thumb": "wuw-mobile.jpg",
+        "image": "cat.jpg"
     },
     {
         "id": 2,
         "name": "WhatUWear web",
         "description": "Design et intégration responsive des interfaces web liées à l'application mobile : landing promotionnelle de l'application, pages de partage de vêtements et de tenues. Mise en place au sein d'un projet Symfony existant via des données serveur en JSON.",
         "link": "http://google.fr",
-        "image": "wuw-web.png"
+        "thumb": "wuw-web.png",
+        "image": "cat.jpg"
     },
     {
         "id": 3,
         "name": "Applications KOA",
         "description": "Design et intégration du site vitrine des applications mobiles de la famille KOA. Utilisation de Slim PHP pour la structure du site et les routes, du CMS Cockpit pour la gestion dynamique et simplifiée du contenu, et de Foundation pour le responsive.",
         "link": "http://google.fr",
-        "image": "koa.png"
+        "thumb": "koa.png",
+        "image": "cat.jpg"
     },
     {
         "id": 4,
         "name": "Badges",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "link": "http://google.fr",
+        "thumb": "wuw-mobile.jpg",
         "image": "wuw-mobile.jpg"
     },
     {
@@ -32,6 +36,7 @@
         "name": "Carte de visite",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "link": "http://google.fr",
+        "thumb": "wuw-mobile.jpg",
         "image": "wuw-mobile.jpg"
     },
     {
@@ -39,6 +44,7 @@
         "name": "Kakemono",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "link": "http://google.fr",
+        "thumb": "wuw-mobile.jpg",
         "image": "wuw-mobile.jpg"
     }
     

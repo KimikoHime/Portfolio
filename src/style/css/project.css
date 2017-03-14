@@ -11,8 +11,8 @@ Error: Undefined variable: "$warm".
 11:       position: relative;
 12:       padding-top: 30px;
 13:       margin-bottom: 50px;
-14:     }
-15: 
+14:       background-size: cover;
+15:     }
 
 Backtrace:
 C:/wamp/www/Portfolio/src/style/scss/project.scss:10
@@ -80,4 +80,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$warm\".\A         on line 10 of C:/wamp/www/Portfolio/src/style/scss/project.scss\A \A 5:     margin-bottom: 75px;\A 6:   }\A 7: \A 8:     #image{\A 9:       height: 1500px;\A 10:       background-color: $warm;\A 11:       position: relative;\A 12:       padding-top: 30px;\A 13:       margin-bottom: 50px;\A 14:     }\A 15: "; }
+  content: "Error: Undefined variable: \"$warm\".\A         on line 10 of C:/wamp/www/Portfolio/src/style/scss/project.scss\A \A 5:     margin-bottom: 75px;\A 6:   }\A 7: \A 8:     #image{\A 9:       height: 1500px;\A 10:       background-color: $warm;\A 11:       position: relative;\A 12:       padding-top: 30px;\A 13:       margin-bottom: 50px;\A 14:       background-size: cover;\A 15:     }"; }

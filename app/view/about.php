@@ -11,23 +11,23 @@
 			<div id="intro">
 				<div class="row">
 					<div class="title">Enchantée !</div>
-					<div class="subtitle">Je m'appelle Laurine et j'ai hâte de vous connaître</div>
-					<p>Je suis une jeune <b>designer web</b> actuellement en poste sur Annecy. Je m'intéresse à toutes sortes de projets mais je fais majoritairement des <b>interfaces web et mobiles</b>, des visuels de communication, des icônes et du print.</p>
-					<p>Ex-développeuse web, j'ai enfin trouvé ma vraie passion, ce qui ne m'empêche pas d'intégrer mes maquettes web responsive ainsi que d'aider à l'esthétique des projets mobiles sur lesquels je travaille actuellement :).</p>
+					<div class="subtitle">J'ai hâte de travailler avec vous</div>
+					<p><b>Graphic designer</b> actuellement en poste sur Annecy, je m'occupe majoritairement du design et de l'intégration d'<b>interfaces web et mobiles</b>. Je produis aussi des visuels de communication, des icônes et du print.</p>
 				</div>
 			
 				<div class="row" id="more">
+
 					<div class="small-12 large-6 columns align-left">
 						<div class="tag">Intérêts</div>
 						<ul>
 							<li>Design thinking &amp; UX</li>
 							<li>Photographie</li>
-							<li>Ecriture</li>
+							<li>Rédaction</li>
 						</ul>
 					</div>
 
 					<div class="small-12 large-6 columns align-right">
-						<div class="tag">Hobbies</div>
+						<div class="tag special">Hobbies</div>
 						<ul>
 							<li>Musculation, danse &amp; escalade</li>
 							<li>Loisirs créatifs et manuels</li>
@@ -52,6 +52,9 @@
 				</a>
 				<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
 					<img src="<?= MEDIA_PATH ?>graph/instagram-w.png" alt="Icône d'Instagram" />
+				</a>
+				<a href="https://medium.com/@peyrardlaurine" target="_blank">
+					<img src="<?= MEDIA_PATH ?>graph/medium-w.png" alt="Icône de Linkedin" />
 				</a>
 			</div>
 		</div>

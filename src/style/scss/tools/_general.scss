@@ -104,6 +104,10 @@ body {
     font-weight: 600;
     margin-bottom: 30px;
 
+    &.special{
+      background-color: $warm;
+    }
+
   }
 
   canvas {
@@ -123,3 +127,14 @@ body {
   height: 100%;
 
 }
+
+
+@media screen and (min-width: 1440px) {
+  .valign-large {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+

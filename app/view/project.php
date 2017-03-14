@@ -1,7 +1,7 @@
 <?php 
 	include('template/header.php');
 	$projectID = $data["id"];
-	//$project = $projects["$projectId"];
+	$project = $projects["$projectID"];
 ?>
 
 <body>
@@ -14,8 +14,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="small-12 columns">
-					<div id="image">
-						<div id="title">Projet <?= $projectID ?></div>
+					<div id="image" style="background-image: url('<?= PROJECT_PATH.$project->{'image'} ?>');">
+						<div id="title"><?= $project->{'name'} ?></div>
 					</div>
 					
 				</div>
@@ -24,9 +24,9 @@
 			<div class="row">
 				<div class="small-12 columns">
 					<div id="description">
-						<p>Quinoa +1 bicycle rights, banjo disrupt photo booth kombucha readymade man braid helvetica. Pop-up narwhal flexitarian, farm-to-table street art 3 wolf moon waistcoat ennui iPhone messenger bag deep v yuccie +1. Literally ugh raclette ethical normcore. Single-origin coffee schlitz lomo tousled. </p>
+						<p><?= $project->{'description'} ?></p>
 					</div>
-					<div id="infos">Infos : farm-to-table street art 3 wolf moon</div>
+					<div id="infos"><?= $project->{'link'} ?></div>
 				</div>
 			</div>
 		</div>
