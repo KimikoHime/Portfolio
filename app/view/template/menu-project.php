@@ -10,24 +10,17 @@
 		</div>
 
 		<div class="small-12 medium-6 large-8 columns text-right">
-			<ul>
-
+			<nav class="unveil">
 				<?php if($projectID >1): ?>
-					<li>
-						<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID-1?>">Précédent</a>
-					</li>
+					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID-1?>" data-hover="Précédent">Précédent</a>
 				<?php endif ?>
 
-				<li>
-					<a href="<?php echo PUBLIC_PATH ?>">Accueil</a>
-				</li>
+				<a href="<?php echo PUBLIC_PATH ?>" data-hover="Accueil">Accueil</a>
 
 				<?php if($projectID <5): ?>
-				<li>
-					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID+1?>">Suivant</a>
-				</li>
+					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID+1?>" data-hover="Suivant">Suivant</a>
 				<?php endif ?>
-			</ul>
+			</nav>
 		</div>
 	
 </div>

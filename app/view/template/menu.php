@@ -10,17 +10,11 @@
 		</div>
 
 		<div class="small-12 medium-6 large-8 columns text-right">
-			<ul>
-				<li>
-					<a href="<?php echo PUBLIC_PATH ?>">Portfolio</a>
-				</li>
-				<li>
-					<a href="<?php echo PUBLIC_PATH ?>about">A propos</a>
-				</li>
-				<li>
-					<a href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">CV</a>
-				</li>
-			</ul>
+			<nav class="unveil">
+				<a href="<?php echo PUBLIC_PATH ?>" data-hover="Portfolio">Portfolio</a>
+				<a href="<?php echo PUBLIC_PATH ?>about" data-hover="About">About</a>
+				<a href="<?= MEDIA_PATH ?>CV.pdf" target="_blank" data-hover="CV">CV</a>
+			</nav>
 		</div>
 	
 </div>

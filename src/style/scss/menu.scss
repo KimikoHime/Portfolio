@@ -1,3 +1,5 @@
+@import "tools/variables";
+
 .menu{
   background-color: white;
   font-family: 'Dosis', Arial, sans-serif;
@@ -7,11 +9,37 @@
   z-index: 999;
   padding-left: 5%;
 
+  
+  // LINKS
+  nav a:hover,
+  nav a:focus {
+    outline: none;
+  }
+
+  .unveil a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 0;
+    color: $warm;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.5s;
+    -moz-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+  }
+
+  .unveil a:hover::before,
+  .unveil a:focus::before {
+    max-width: 100%;
+  }
+
+
 
   #logo{
-    margin-top: 15px;
-    width: 30px;
-    height: 30px;
+    margin-top: 17px;
+    width: 22px;
+    height: auto;
     margin-right: 20px;
     float: left;
     margin-bottom: 15px;
@@ -34,12 +62,12 @@
     margin-top: 2px;
   }
 
-  ul{
+  nav{
     padding-right: 10%;
     margin-top: 18px;
     float: right;
 
-    li{
+    a{
       list-style: none;
       float: left;
       margin-left: 45px;

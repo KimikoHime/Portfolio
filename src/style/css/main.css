@@ -92,6 +92,10 @@ body .valign {
   justify-content: center;
 }
 /* line 95, ../scss/tools/_general.scss */
+body .full-height {
+  height: 100%;
+}
+/* line 99, ../scss/tools/_general.scss */
 body .tag {
   padding: 3px 10px;
   background-color: #AC4759;
@@ -104,18 +108,18 @@ body .tag {
   font-weight: 600;
   margin-bottom: 30px;
 }
-/* line 107, ../scss/tools/_general.scss */
+/* line 111, ../scss/tools/_general.scss */
 body .tag.special {
   background-color: #BEB098;
 }
-/* line 113, ../scss/tools/_general.scss */
+/* line 117, ../scss/tools/_general.scss */
 body canvas {
   display: block;
   vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
-/* line 124, ../scss/tools/_general.scss */
+/* line 128, ../scss/tools/_general.scss */
 #particles-js {
   position: absolute;
   width: 100%;
@@ -123,14 +127,14 @@ body canvas {
 }
 
 @media screen and (min-width: 1440px) {
-  /* line 133, ../scss/tools/_general.scss */
+  /* line 137, ../scss/tools/_general.scss */
   .valign-large {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-/* line 1, ../scss/menu.scss */
+/* line 3, ../scss/menu.scss */
 .menu {
   background-color: white;
   font-family: 'Dosis', Arial, sans-serif;
@@ -140,16 +144,39 @@ body canvas {
   z-index: 999;
   padding-left: 5%;
 }
-/* line 11, ../scss/menu.scss */
+/* line 14, ../scss/menu.scss */
+.menu nav a:hover,
+.menu nav a:focus {
+  outline: none;
+}
+/* line 19, ../scss/menu.scss */
+.menu .unveil a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  max-width: 0;
+  color: #BEB098;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+/* line 32, ../scss/menu.scss */
+.menu .unveil a:hover::before,
+.menu .unveil a:focus::before {
+  max-width: 100%;
+}
+/* line 39, ../scss/menu.scss */
 .menu #logo {
-  margin-top: 15px;
-  width: 30px;
-  height: 30px;
+  margin-top: 17px;
+  width: 22px;
+  height: auto;
   margin-right: 20px;
   float: left;
   margin-bottom: 15px;
 }
-/* line 20, ../scss/menu.scss */
+/* line 48, ../scss/menu.scss */
 .menu #name {
   font-size: 18px;
   font-weight: 600;
@@ -158,7 +185,7 @@ body canvas {
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
-/* line 29, ../scss/menu.scss */
+/* line 57, ../scss/menu.scss */
 .menu #job {
   text-transform: uppercase;
   font-size: 15px;
@@ -166,14 +193,14 @@ body canvas {
   letter-spacing: 1.2px;
   margin-top: 2px;
 }
-/* line 37, ../scss/menu.scss */
-.menu ul {
+/* line 65, ../scss/menu.scss */
+.menu nav {
   padding-right: 10%;
   margin-top: 18px;
   float: right;
 }
-/* line 42, ../scss/menu.scss */
-.menu ul li {
+/* line 70, ../scss/menu.scss */
+.menu nav a {
   list-style: none;
   float: left;
   margin-left: 45px;
@@ -184,30 +211,29 @@ body canvas {
 }
 
 /*** Header ***/
-/* line 2, ../scss/home.scss */
+/* line 4, ../scss/home.scss */
 #header {
   text-align: center;
 }
-/* line 5, ../scss/home.scss */
+/* line 7, ../scss/home.scss */
 #header #picture {
   background: url("/portfolio/public/media/bg/home.jpg") no-repeat center 90%;
   background-size: cover;
   overflow: hidden;
   width: 100%;
-  height: 430px;
+  height: 100%;
 }
-/* line 13, ../scss/home.scss */
+/* line 16, ../scss/home.scss */
 #header #intro {
-  margin-top: 70px;
   position: relative;
   z-index: 900;
 }
-/* line 19, ../scss/home.scss */
+/* line 21, ../scss/home.scss */
 #header #intro #face img {
   width: 100px;
   height: auto;
 }
-/* line 25, ../scss/home.scss */
+/* line 27, ../scss/home.scss */
 #header #intro #job {
   font-family: 'Dosis', Arial, sans-serif;
   margin-top: 45px;
@@ -216,37 +242,37 @@ body canvas {
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
-/* line 35, ../scss/home.scss */
+/* line 37, ../scss/home.scss */
 #header #social {
   margin-top: 30px;
 }
-/* line 38, ../scss/home.scss */
+/* line 40, ../scss/home.scss */
 #header #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 44, ../scss/home.scss */
+/* line 46, ../scss/home.scss */
 #header #social a:last-child img {
   margin-right: 0;
 }
 
-/* line 56, ../scss/home.scss */
+/* line 58, ../scss/home.scss */
 .content hr {
   border: none;
   height: 3px;
   background-color: #ededed;
 }
-/* line 63, ../scss/home.scss */
+/* line 65, ../scss/home.scss */
 .content .project {
-  margin: 100px 0;
+  margin: 50px 0;
   margin-left: 5%;
 }
-/* line 67, ../scss/home.scss */
+/* line 69, ../scss/home.scss */
 .content .project.middle-project {
   margin-left: 0;
   margin-right: 5%;
 }
-/* line 72, ../scss/home.scss */
+/* line 74, ../scss/home.scss */
 .content .project .title {
   font-family: 'Dosis', Arial, sans-serif;
   margin-bottom: 30px;
@@ -256,35 +282,54 @@ body canvas {
   letter-spacing: 1.2px;
   margin-top: 45px;
 }
-/* line 82, ../scss/home.scss */
+/* line 84, ../scss/home.scss */
 .content .project p {
   font-size: 16px;
   margin-right: 30px;
 }
-/* line 86, ../scss/home.scss */
+/* line 88, ../scss/home.scss */
 .content .project p.right {
   margin-left: 30px;
 }
-/* line 91, ../scss/home.scss */
+/* line 93, ../scss/home.scss */
 .content .project .image {
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-color: #BEB098;
   background-size: cover;
 }
 /* line 99, ../scss/home.scss */
+.content .project .image .filter {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, white 0%, #BEB098 80%);
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  opacity: 0;
+}
+/* line 111, ../scss/home.scss */
+.content .project .image:hover .filter {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  opacity: 0.3;
+}
+/* line 130, ../scss/home.scss */
 .content #thumb-row {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 75px;
   margin-bottom: 75px;
 }
-/* line 105, ../scss/home.scss */
+/* line 136, ../scss/home.scss */
 .content #thumb-row .thumbnail {
   border: none;
   box-shadow: none;
 }
-/* line 109, ../scss/home.scss */
+/* line 140, ../scss/home.scss */
 .content #thumb-row .thumbnail .title {
   font-family: 'Dosis', Arial, sans-serif;
   font-weight: 600;
@@ -293,7 +338,7 @@ body canvas {
   letter-spacing: 1.2px;
   text-align: center;
 }
-/* line 118, ../scss/home.scss */
+/* line 149, ../scss/home.scss */
 .content #thumb-row .thumbnail .image {
   width: 100%;
   height: 300px;
@@ -301,13 +346,13 @@ body canvas {
 }
 
 /*** About ***/
-/* line 3, ../scss/about.scss */
+/* line 5, ../scss/about.scss */
 #intro {
   margin-left: 12%;
   margin-right: 15%;
   margin-top: 0px;
 }
-/* line 8, ../scss/about.scss */
+/* line 10, ../scss/about.scss */
 #intro .title {
   font-family: "Dosis", Arial, sans-serif;
   margin-bottom: 0px;
@@ -315,45 +360,45 @@ body canvas {
   font-weight: 500;
   margin-top: 20px;
 }
-/* line 16, ../scss/about.scss */
+/* line 18, ../scss/about.scss */
 #intro .subtitle {
   font-family: "Dosis", Arial, sans-serif;
   margin-bottom: 50px;
   font-size: 30px;
   font-weight: 400;
 }
-/* line 23, ../scss/about.scss */
+/* line 25, ../scss/about.scss */
 #intro p {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 28, ../scss/about.scss */
+/* line 30, ../scss/about.scss */
 #intro #more {
   margin-top: 50px;
   font-size: 14px;
   font-weight: 500;
 }
-/* line 33, ../scss/about.scss */
+/* line 35, ../scss/about.scss */
 #intro #more .tag {
   margin-bottom: 15px;
 }
-/* line 37, ../scss/about.scss */
+/* line 39, ../scss/about.scss */
 #intro #more ul {
   margin-left: 0;
 }
-/* line 39, ../scss/about.scss */
+/* line 41, ../scss/about.scss */
 #intro #more ul li {
   list-style: none;
   padding-bottom: 10px;
   padding-top: 10px;
   border-bottom: 2px solid #ededed;
 }
-/* line 45, ../scss/about.scss */
+/* line 47, ../scss/about.scss */
 #intro #more ul li:last-child {
   border-bottom: 0;
 }
 
-/* line 54, ../scss/about.scss */
+/* line 56, ../scss/about.scss */
 #banner {
   background: url("/portfolio/public/media/bg/banner.jpg") no-repeat;
   background-size: cover;
@@ -361,7 +406,7 @@ body canvas {
   font-family: "Dosis", Arial, sans-serif;
   position: relative;
 }
-/* line 62, ../scss/about.scss */
+/* line 64, ../scss/about.scss */
 #banner .title {
   color: white;
   display: inline-block;
@@ -374,29 +419,29 @@ body canvas {
   transform: rotate(90deg);
   transform-origin: left top 0;
 }
-/* line 75, ../scss/about.scss */
+/* line 77, ../scss/about.scss */
 #banner #social {
   position: absolute;
   bottom: 15px;
   right: 30px;
 }
-/* line 81, ../scss/about.scss */
+/* line 83, ../scss/about.scss */
 #banner #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 87, ../scss/about.scss */
+/* line 89, ../scss/about.scss */
 #banner #social a:last-child img {
   margin-right: 0;
 }
 
-/* line 2, ../scss/project.scss */
+/* line 4, ../scss/project.scss */
 #project .container {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 75px;
 }
-/* line 8, ../scss/project.scss */
+/* line 10, ../scss/project.scss */
 #project #image {
   height: 1500px;
   background-color: #BEB098;
@@ -405,7 +450,7 @@ body canvas {
   margin-bottom: 50px;
   background-size: cover;
 }
-/* line 17, ../scss/project.scss */
+/* line 19, ../scss/project.scss */
 #project #title {
   font-family: "Dosis", Arial, sans-serif;
   color: white;
@@ -414,11 +459,11 @@ body canvas {
   text-transform: uppercase;
   margin-left: 30px;
 }
-/* line 26, ../scss/project.scss */
+/* line 28, ../scss/project.scss */
 #project #description {
   font-size: 18px;
 }
-/* line 30, ../scss/project.scss */
+/* line 32, ../scss/project.scss */
 #project #infos {
   margin-top: 50px;
   font-weight: 500;

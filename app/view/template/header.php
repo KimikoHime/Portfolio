@@ -5,10 +5,9 @@
 	<!-- Style -->
 	<link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />
 	<link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
-	<link href='<?= REAL_PATH ?>vendor/IconHoverEffects/css/component.css' rel='stylesheet' type='text/css'>
 
-	<script type="text/javascript" src="<?= REAL_PATH ?>vendor/IconHoverEffects/js/component.js"></script>
-	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+	<script type="text/javascript" src="<?= REAL_PATH ?>vendor/modernizr.custom.js"></script>
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">

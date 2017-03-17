@@ -12,7 +12,7 @@
 
 	<div class="clear"></div>
 
-	<div id="header" class="row padding-top">
+	<div id="header" class="row padding-top wrapper">
 		<div id="particles-js"></div>
 		<!-- <div class="container"> -->
 
@@ -22,46 +22,40 @@
 				</div>
 			</div>
 
-			<div class="small-12 medium-6 large-4 columns">
-				
+			
+				<div class="small-12 medium-6 large-4 columns valign full-height">
 
-				<!-- <div id="cv"class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b">
-					<a href="href="<?= MEDIA_PATH ?>media/CV.pdf"" class="hi-icon">
-						<img src="<?= MEDIA_PATH ?>graph/resume.png" alt="Illustration représentant un CV" />
-					</a>
-				</div> -->
+					<div id="intro">
 
-				<div id="intro">
+						<div id="face">
+							<img src="<?= MEDIA_PATH ?>id/face.png" alt="Illustration représentant un CV" />
+						</div>
 
-					<div id="face">
-						<img src="<?= MEDIA_PATH ?>id/face.png" alt="Illustration représentant un CV" />
-					</div>
+						<div id="job">
+							Design &amp; intégration
 
-					<div id="job">
-						Graphic design
+							<div>
+								<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
+									Télécharger mon CV
+								</a>
+							</div>
+						</div>
 
-						<div>
-							<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
-								Télécharger mon CV
+
+						<div id="social">
+							<a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
+								<img src="<?= MEDIA_PATH ?>graph/linkedin.png" alt="Icône de Linkedin" />
+							</a>
+							<a href="https://twitter.com/LaurinePeyrard" target="_blank">
+								<img src="<?= MEDIA_PATH ?>graph/twitter.png" alt="Icône de Twitter" />
+							</a>
+							<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
+								<img src="<?= MEDIA_PATH ?>graph/instagram.png" alt="Icône d'Instagram" />
 							</a>
 						</div>
 					</div>
-
-
-					<div id="social">
-						<a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
-							<img src="<?= MEDIA_PATH ?>graph/linkedin.png" alt="Icône de Linkedin" />
-						</a>
-						<a href="https://twitter.com/LaurinePeyrard" target="_blank">
-							<img src="<?= MEDIA_PATH ?>graph/twitter.png" alt="Icône de Twitter" />
-						</a>
-						<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
-							<img src="<?= MEDIA_PATH ?>graph/instagram.png" alt="Icône d'Instagram" />
-						</a>
-					</div>
 				</div>
-			</div>
-		<!-- </div> -->
+		
 
 	</div>
 
@@ -71,21 +65,25 @@
 		<div class="container">
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/1">
-				<div class="row project valign">
+				<div class="row project valign wrapper">
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title"><?= $projects[0]->{'name'} ?></div>
 						<p><?= $projects[0]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image project1" style="background-image: url('<?= PROJECT_PATH.$projects[0]->{'thumb'} ?>');"></div>
+						<div class="image project1" style="background-image: url('<?= PROJECT_PATH.$projects[0]->{'thumb'} ?>');">
+							<div class="filter"></div>
+						</div>
 					</div>
 				</div>
 			</a>
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/2">
-				<div class="row project valign middle-project">
+				<div class="row project valign middle-project wrapper">
 					<div class="small-12 medium-6 large-8 columns align-left">
-						<div class="image project2" style="background-image: url('<?= PROJECT_PATH.$projects[1]->{'thumb'} ?>');"></div>
+						<div class="image project2" style="background-image: url('<?= PROJECT_PATH.$projects[1]->{'thumb'} ?>');">
+							<div class="filter"></div>
+						</div>
 					</div>
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title text-right"><?= $projects[1]->{'name'} ?></div>
@@ -95,13 +93,15 @@
 			</a>
 
 			<a href="<?php echo PUBLIC_PATH ?>projet/3">
-				<div class="row project valign">
+				<div class="row project valign wrapper">
 					<div class="small-12 medium-6 large-4 columns">
 						<div class="title"><?= $projects[2]->{'name'} ?></div>
 						<p><?= $projects[2]->{'description'} ?></p>
 					</div>
 					<div class="small-12 medium-6 large-8 columns align-right">
-						<div class="image project3" style="background-image: url('<?= PROJECT_PATH.$projects[3]->{'thumb'} ?>');"></div>
+						<div class="image project3" style="background-image: url('<?= PROJECT_PATH.$projects[3]->{'thumb'} ?>');">
+							<div class="filter"></div>
+						</div>
 					</div>
 				</div>
 			</a>
