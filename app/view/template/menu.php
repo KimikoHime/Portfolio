@@ -10,11 +10,11 @@
 		</div>
 
 		<div class="small-12 medium-6 large-8 columns text-right">
-			<nav class="unveil">
-				<a href="<?php echo PUBLIC_PATH ?>" data-hover="Portfolio">Portfolio</a>
-				<a href="<?php echo PUBLIC_PATH ?>about" data-hover="About">About</a>
+			<divs class="unveil">
+				<a href="<?php echo PUBLIC_PATH ?>" class='<?= $active == "home"?"active":"" ?>' data-hover="Portfolio" >Portfolio</a>
+				<a href="<?php echo PUBLIC_PATH ?>about" class='<?= $active == "about"?"active":"" ?>' data-hover="A propos">A propos</a>
 				<a href="<?= MEDIA_PATH ?>CV.pdf" target="_blank" data-hover="CV">CV</a>
-			</nav>
+			</div>
 		</div>
 	
 </div>

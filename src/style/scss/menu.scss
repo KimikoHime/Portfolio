@@ -6,35 +6,14 @@
   position: fixed;
   width: 100%;
   background-color: white;
-  z-index: 999;
+  z-index: 99999;
   padding-left: 5%;
 
-  
   // LINKS
   nav a:hover,
   nav a:focus {
     outline: none;
   }
-
-  .unveil a::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    max-width: 0;
-    color: $warm;
-    content: attr(data-hover);
-    -webkit-transition: max-width 0.5s;
-    -moz-transition: max-width 0.5s;
-    transition: max-width 0.5s;
-  }
-
-  .unveil a:hover::before,
-  .unveil a:focus::before {
-    max-width: 100%;
-  }
-
-
 
   #logo{
     margin-top: 17px;
@@ -52,6 +31,7 @@
     color: $primary;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+    font-family: "Fira Sans", Arial, sans-serif;
   }
 
   #job{
@@ -62,10 +42,13 @@
     margin-top: 2px;
   }
 
-  nav{
+  .unveil{
     padding-right: 10%;
     margin-top: 18px;
     float: right;
+    letter-spacing: 1.2px;
+    font-family: "Fira Sans", Arial, sans-serif;
+    font-weight: 500;
 
     a{
       list-style: none;
@@ -73,7 +56,6 @@
       margin-left: 45px;
       text-transform: uppercase;
       font-size: 16px;
-      font-weight: 600;
       letter-spacing: 1.2px;
     }
   }

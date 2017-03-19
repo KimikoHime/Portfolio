@@ -10,7 +10,7 @@
 		</div>
 
 		<div class="small-12 medium-6 large-8 columns text-right">
-			<nav class="unveil">
+			<div class="unveil">
 				<?php if($projectID >1): ?>
 					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID-1?>" data-hover="Précédent">Précédent</a>
 				<?php endif ?>
@@ -20,7 +20,7 @@
 				<?php if($projectID <5): ?>
 					<a href="<?php echo PUBLIC_PATH ?>projet/<?php echo $projectID+1?>" data-hover="Suivant">Suivant</a>
 				<?php endif ?>
-			</nav>
+			</div>
 		</div>
 	
 </div>

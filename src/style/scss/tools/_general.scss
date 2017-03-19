@@ -17,9 +17,12 @@ body {
     z-index: 9999;
     color: inherit;
 
+    &.active{
+      color: $primary;
+    }
+
     &:hover {
       cursor: pointer;
-    
       -webkit-transition: all 0.3s; /* Safari */
       transition: all 0.3s;
       color: inherit;
@@ -69,6 +72,25 @@ body {
     padding-top: 60px;
   }
 
+  .unveil a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 0;
+    color: $primary;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.5s;
+    -moz-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+    white-space: nowrap;
+  }
+
+  .unveil a:hover::before,
+  .unveil a:focus::before {
+    max-width: 100%;
+  }
+
   .button {
     border-radius: 3px;
     margin-top: 15px;
@@ -100,13 +122,14 @@ body {
     padding: 3px 10px;
     background-color: $primary;
     color: white;
-    font-family: "Dosis", Arial, sans-serif;
+    font-family: "Fira Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 1.2px;
-    font-weight: 600;
     margin-bottom: 30px;
+    font-size: 16px;
 
     &.special{
       background-color: $warm;

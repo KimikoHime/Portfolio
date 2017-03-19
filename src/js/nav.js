@@ -7,7 +7,7 @@ $(document).ready(function(){
     var isiPad = /iPad/i.test(ua) || /iPhone OS 3_1_2/i.test(ua) || /iPhone OS 3_2_2/i.test(ua);
 
     if(windowWidth>1024){
-        $(".wrapper").height(windowHeight-50);
+        $(".wrapper").height(windowHeight-0);
     }
 
      // Refresh wrapper height when changing orientation

@@ -1,4 +1,7 @@
-<?php include('template/header.php') ?>
+<?php 
+	include('template/header.php');
+	$active = "about";
+?>
 
 <body>
 
@@ -12,7 +15,7 @@
 				<div class="row">
 					<div class="title">Enchantée !</div>
 					<div class="subtitle">J'ai hâte de travailler avec vous</div>
-					<p><b>Graphic designer</b> actuellement en poste sur Annecy, je m'occupe majoritairement du design et de l'intégration d'<b>interfaces web et mobiles</b>. Je produis aussi des visuels de communication, des icônes et du print.</p>
+					<p><b>Designer et intégratrice</b> actuellement en poste sur Annecy, je conçois et met en place des <b>interfaces web et mobiles</b>. Je produis aussi des visuels de communication, des icônes et du print.</p>
 				</div>
 			
 				<div class="row" id="more">

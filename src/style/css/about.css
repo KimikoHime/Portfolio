@@ -15,43 +15,46 @@
 }
 /* line 18, ../scss/about.scss */
 #intro .subtitle {
-  font-family: "Dosis", Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
   margin-bottom: 50px;
-  font-size: 30px;
-  font-weight: 400;
+  margin-top: 10px;
 }
-/* line 25, ../scss/about.scss */
+/* line 28, ../scss/about.scss */
 #intro p {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 30, ../scss/about.scss */
+/* line 33, ../scss/about.scss */
 #intro #more {
   margin-top: 50px;
   font-size: 14px;
   font-weight: 500;
 }
-/* line 35, ../scss/about.scss */
+/* line 38, ../scss/about.scss */
 #intro #more .tag {
   margin-bottom: 15px;
 }
-/* line 39, ../scss/about.scss */
+/* line 42, ../scss/about.scss */
 #intro #more ul {
   margin-left: 0;
 }
-/* line 41, ../scss/about.scss */
+/* line 44, ../scss/about.scss */
 #intro #more ul li {
   list-style: none;
   padding-bottom: 10px;
   padding-top: 10px;
   border-bottom: 2px solid #ededed;
 }
-/* line 47, ../scss/about.scss */
+/* line 50, ../scss/about.scss */
 #intro #more ul li:last-child {
   border-bottom: 0;
 }
 
-/* line 56, ../scss/about.scss */
+/* line 59, ../scss/about.scss */
 #banner {
   background: url("/portfolio/public/media/bg/banner.jpg") no-repeat;
   background-size: cover;
@@ -59,7 +62,7 @@
   font-family: "Dosis", Arial, sans-serif;
   position: relative;
 }
-/* line 64, ../scss/about.scss */
+/* line 67, ../scss/about.scss */
 #banner .title {
   color: white;
   display: inline-block;
@@ -72,18 +75,18 @@
   transform: rotate(90deg);
   transform-origin: left top 0;
 }
-/* line 77, ../scss/about.scss */
+/* line 80, ../scss/about.scss */
 #banner #social {
   position: absolute;
   bottom: 15px;
   right: 30px;
 }
-/* line 83, ../scss/about.scss */
+/* line 86, ../scss/about.scss */
 #banner #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 89, ../scss/about.scss */
+/* line 92, ../scss/about.scss */
 #banner #social a:last-child img {
   margin-right: 0;
 }
