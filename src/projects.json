@@ -7,7 +7,14 @@
         "thumb": "wuw-mobile.jpg",
         "color": "#969696",
         "image": "cat.jpg",
-        "mockup": "wuw-mobile-mock.png"
+        "mockup": "wuw-mobile-mock.png",
+        "tags":[
+            {
+                "id": "android",
+                "id": "design",
+                "id": "intégration"
+            }
+        ]
     },
     {
         "id": 1,
@@ -17,35 +24,62 @@
         "thumb": "wuw-web.jpg",
         "color": "#969696",
         "image": "cat.jpg",
-        "mockup": "wuw-mobile-mock.png"
+        "mockup": "wuw-mobile-mock.png",
+         "tags":[
+            {
+                "id": "web",
+                "id": "design",
+                "id": "intégration"
+            }
+        ]
+
     },
     {
         "id": 2,
         "name": "Applications KOA",
         "description": "Design et intégration du site vitrine des applications mobiles de la famille KOA. Utilisation de Slim PHP pour la structure du site et les routes, du CMS Cockpit pour la gestion dynamique et simplifiée du contenu, et de Foundation pour le responsive.",
         "link": "http://google.fr",
-        "thumb": "koa.png",
+        "thumb": "koa.jpg",
         "color": "#669AE1",
         "image": "cat.jpg",
-        "mockup": "wuw-mobile-mock.png"
+        "mockup": "wuw-mobile-mock.png",
+         "tags":[
+            {
+                "id": "web",
+                "id": "design",
+                "id": "intégration"
+            }
+        ]
     },
     {
         "id": 3,
         "name": "Kakemono",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "link": "https://aboutgoods-company.com",
-        "thumb": "kakemono-square.jpg",
+        "thumb": "kakemono-full.jpg",
         "color": "#da4453",
-        "image": "kakemono-details.jpg"
+        "image": "kakemono-details.jpg",
+         "tags":[
+            {
+                "id": "print",
+                "id": "design"
+            }
+        ]
     },
     {
         "id": 4,
-        "name": "Badges",
-        "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
-        "link": "http://google.fr",
-        "thumb": "wuw-mobile.jpg",
+        "name": "Stickers start-up",
+        "description": "Quelques stickers humoristiques que j'avais créé suite à une private joke avec mes collègues de bureau, et que j'ai finalement réutilisé dans un article promotionnel et décalé que j'ai écris pour le blog de l'entreprise.",
+        "link": "https://medium.com/blogaboutgoodscompany/3-phrases-typiques-de-la-start-up-cd983566a52b#.eze651bqr",
+        "thumb": "stickers-full.jpg",
         "color": "#969696",
-        "image": "wuw-mobile.jpg"
+        "image": "wuw-mobile.jpg",
+         "tags":[
+            {
+                "id": "print",
+                "id": "design"
+            }
+        ]
     },
     
     {
@@ -55,7 +89,13 @@
         "link": "http://google.fr",
         "thumb": "wuw-mobile.jpg",
         "color": "#969696",
-        "image": "wuw-mobile.jpg"
+        "image": "wuw-mobile.jpg",
+         "tags":[
+            {
+                "id": "print",
+                "id":"design"
+            }
+        ]
     }
     
     

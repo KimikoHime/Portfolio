@@ -76,7 +76,11 @@
 										<?= $project->{'name'} ?>
 									</a>
 								</div>
-								<p><?= $project->{'description'} ?></p>
+								<div>
+									<?php foreach ($project->{'tags'} as $tag): ?> 
+										<span><?= $tag->{'id'} ?></span>
+									<?php endforeach ?>
+								</div>
 							</div>
 						<?php endif ?>
 
@@ -99,7 +103,11 @@
 										<?= $project->{'name'} ?>
 									</a>
 								</div>
-								<p><?= $project->{'description'} ?></p>
+								<div>
+									<?php foreach ($project->{'tags'} as $tag): ?> 
+										<span><?= $tag->{'id'} ?></span>
+									<?php endforeach ?>
+								</div>
 							</div>
 						<?php endif ?>
 
