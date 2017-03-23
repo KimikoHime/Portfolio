@@ -139,10 +139,15 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   text-align: center;
+  background-color: white;
+  display: inline;
+  padding: 5px 15px;
 }
-/* line 160, ../scss/home.scss */
+/* line 163, ../scss/home.scss */
 .content #thumb-row .thumbnail .image {
   width: 100%;
   height: 300px;
   background-color: #ededed;
+  text-align: center;
+  background-size: cover;
 }

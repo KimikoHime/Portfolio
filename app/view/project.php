@@ -26,7 +26,9 @@
 					<div id="description">
 						<p><?= $project->{'description'} ?></p>
 					</div>
-					<div id="infos"><?= $project->{'link'} ?></div>
+					<div id="infos">
+						<a href="<?= $project->{'link'} ?>" target="_blank"><?= $project->{'link'} ?></a>
+					</div>
 				</div>
 			</div>
 		</div>
