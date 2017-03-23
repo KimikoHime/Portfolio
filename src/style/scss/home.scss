@@ -66,10 +66,6 @@
 		margin: 50px 0;
 		margin-left: 5%;
 
-		&.middle-project{
-			margin-left: 0;
-			margin-right: 5%;
-		}
 
 		.mockup{
 			margin-right: auto;
@@ -106,6 +102,21 @@
 				margin-left: 30px;
 			}
 		}
+
+		&.even{
+			margin-left: 0;
+			margin-right: 5%;
+
+			.title{
+				text-align: right;
+			}
+
+			p{
+				margin-right: 0;
+				margin-left: 30px;
+			}
+		} 
+
 
 		.image{
 			width: 100%;
