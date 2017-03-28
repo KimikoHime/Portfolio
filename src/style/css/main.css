@@ -97,16 +97,16 @@ body .button {
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: #AC4759;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Fira Sans', Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   padding: 8px 15px 7px 15px;
 }
 /* line 106, ../scss/tools/_general.scss */
 body .button:hover, body .button:active, body .button:focus {
-  background-color: #BEB098;
+  background-color: #802031;
 }
 /* line 111, ../scss/tools/_general.scss */
 body .valign {
@@ -158,7 +158,7 @@ body canvas {
     justify-content: center;
   }
 }
-/* line 3, ../scss/menu.scss */
+/* line 3, ../scss/_menu.scss */
 .menu {
   background-color: white;
   font-family: 'Dosis', Arial, sans-serif;
@@ -168,12 +168,12 @@ body canvas {
   z-index: 99999;
   padding-left: 5%;
 }
-/* line 13, ../scss/menu.scss */
+/* line 13, ../scss/_menu.scss */
 .menu nav a:hover,
 .menu nav a:focus {
   outline: none;
 }
-/* line 18, ../scss/menu.scss */
+/* line 18, ../scss/_menu.scss */
 .menu #logo {
   margin-top: 17px;
   width: 22px;
@@ -182,17 +182,17 @@ body canvas {
   float: left;
   margin-bottom: 15px;
 }
-/* line 27, ../scss/menu.scss */
+/* line 27, ../scss/_menu.scss */
 .menu #name {
   font-size: 18px;
   font-weight: 600;
   margin-top: 16px;
   color: #AC4759;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.5px;
   font-family: "Fira Sans", Arial, sans-serif;
 }
-/* line 37, ../scss/menu.scss */
+/* line 37, ../scss/_menu.scss */
 .menu #job {
   text-transform: uppercase;
   font-size: 15px;
@@ -200,7 +200,7 @@ body canvas {
   letter-spacing: 1.2px;
   margin-top: 2px;
 }
-/* line 45, ../scss/menu.scss */
+/* line 45, ../scss/_menu.scss */
 .menu .unveil {
   padding-right: 10%;
   margin-top: 18px;
@@ -209,22 +209,22 @@ body canvas {
   font-family: "Fira Sans", Arial, sans-serif;
   font-weight: 500;
 }
-/* line 53, ../scss/menu.scss */
+/* line 53, ../scss/_menu.scss */
 .menu .unveil a {
   list-style: none;
   float: left;
   margin-left: 45px;
   text-transform: uppercase;
   font-size: 16px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 
 /*** Header ***/
-/* line 4, ../scss/home.scss */
+/* line 4, ../scss/_home.scss */
 #header {
   text-align: center;
 }
-/* line 7, ../scss/home.scss */
+/* line 7, ../scss/_home.scss */
 #header #picture {
   background: url("/portfolio/public/media/bg/home.jpg") no-repeat center 90%;
   background-size: cover;
@@ -232,17 +232,18 @@ body canvas {
   width: 100%;
   height: 100%;
 }
-/* line 16, ../scss/home.scss */
+/* line 16, ../scss/_home.scss */
 #header #intro {
   position: relative;
   z-index: 900;
+  margin-top: 60px;
 }
-/* line 21, ../scss/home.scss */
+/* line 22, ../scss/_home.scss */
 #header #intro #face img {
   width: 100px;
   height: auto;
 }
-/* line 27, ../scss/home.scss */
+/* line 28, ../scss/_home.scss */
 #header #intro #job {
   font-family: 'Dosis', Arial, sans-serif;
   margin-top: 45px;
@@ -250,43 +251,63 @@ body canvas {
   font-size: 18px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  color: black;
 }
-/* line 37, ../scss/home.scss */
+/* line 37, ../scss/_home.scss */
+#header #intro #job .button {
+  margin-right: 15px;
+}
+/* line 40, ../scss/_home.scss */
+#header #intro #job .button:last-child {
+  margin-right: 0;
+}
+/* line 47, ../scss/_home.scss */
 #header #social {
   margin-top: 30px;
 }
-/* line 40, ../scss/home.scss */
+/* line 50, ../scss/_home.scss */
 #header #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 46, ../scss/home.scss */
+/* line 56, ../scss/_home.scss */
 #header #social a:last-child img {
   margin-right: 0;
 }
 
-/* line 58, ../scss/home.scss */
+/* line 68, ../scss/_home.scss */
 .content hr {
   border: none;
   height: 3px;
   background-color: #ededed;
 }
-/* line 65, ../scss/home.scss */
+/* line 75, ../scss/_home.scss */
 .content .project {
   margin: 50px 0;
   margin-left: 5%;
 }
-/* line 70, ../scss/home.scss */
+/* line 80, ../scss/_home.scss */
 .content .project .mockup {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 73, ../scss/home.scss */
+/* line 83, ../scss/_home.scss */
 .content .project .mockup img {
   width: 30%;
   height: auto;
 }
-/* line 80, ../scss/home.scss */
+/* line 91, ../scss/_home.scss */
+.content .project .tags .tag {
+  font-size: 13px;
+  margin-right: 15px;
+  font-weight: 400;
+  background-color: black;
+}
+/* line 97, ../scss/_home.scss */
+.content .project .tags .tag:last-child {
+  margin-right: 0;
+}
+/* line 103, ../scss/_home.scss */
 .content .project .title {
   font-family: 'Dosis', Arial, sans-serif;
   margin-bottom: 30px;
@@ -296,40 +317,48 @@ body canvas {
   letter-spacing: 1.5px;
   margin-top: 45px;
 }
-/* line 90, ../scss/home.scss */
+/* line 113, ../scss/_home.scss */
 .content .project .title.unveil a:before {
   top: -3px;
 }
-/* line 97, ../scss/home.scss */
+/* line 120, ../scss/_home.scss */
 .content .project p {
   font-size: 16px;
   margin-right: 30px;
 }
-/* line 101, ../scss/home.scss */
+/* line 124, ../scss/_home.scss */
 .content .project p.right {
   margin-left: 30px;
 }
-/* line 106, ../scss/home.scss */
+/* line 129, ../scss/_home.scss */
 .content .project.even {
   margin-left: 0;
   margin-right: 5%;
-}
-/* line 110, ../scss/home.scss */
-.content .project.even .title {
   text-align: right;
 }
-/* line 114, ../scss/home.scss */
+/* line 134, ../scss/_home.scss */
 .content .project.even p {
   margin-right: 0;
   margin-left: 30px;
 }
-/* line 121, ../scss/home.scss */
+/* line 141, ../scss/_home.scss */
 .content .project .image {
   width: 100%;
   height: 100%;
   background-size: cover;
+  /*&:hover{
+  	.filter{
+  		background-color: rgba(0,0,0,0.8);
+  		-webkit-transition: all 0.5s ease-in;
+  	    -moz-transition: all 0.55s ease-in;
+  	    -o-transition: all 0.5s ease-in;
+  	    transition: all 0.5s ease-in;
+  	    opacity: 0.3;
+  	}
+  	
+  }*/
 }
-/* line 126, ../scss/home.scss */
+/* line 146, ../scss/_home.scss */
 .content .project .image .filter {
   height: 100%;
   width: 100%;
@@ -340,28 +369,19 @@ body canvas {
   transition: all 0.5s ease-in;
   opacity: 0;
 }
-/* line 138, ../scss/home.scss */
-.content .project .image:hover .filter {
-  background-color: rgba(0, 0, 0, 0.8);
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.55s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  opacity: 0.3;
-}
-/* line 152, ../scss/home.scss */
+/* line 172, ../scss/_home.scss */
 .content #thumb-row {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 75px;
   margin-bottom: 75px;
 }
-/* line 158, ../scss/home.scss */
+/* line 178, ../scss/_home.scss */
 .content #thumb-row .thumbnail {
   border: none;
   box-shadow: none;
 }
-/* line 162, ../scss/home.scss */
+/* line 182, ../scss/_home.scss */
 .content #thumb-row .thumbnail .title {
   font-family: 'Dosis', Arial, sans-serif;
   font-weight: 600;
@@ -373,7 +393,7 @@ body canvas {
   display: inline;
   padding: 5px 15px;
 }
-/* line 174, ../scss/home.scss */
+/* line 194, ../scss/_home.scss */
 .content #thumb-row .thumbnail .image {
   width: 100%;
   height: 300px;
@@ -383,21 +403,22 @@ body canvas {
 }
 
 /*** About ***/
-/* line 5, ../scss/about.scss */
+/* line 5, ../scss/_about.scss */
 #intro {
   margin-left: 12%;
   margin-right: 15%;
   margin-top: 0px;
 }
-/* line 10, ../scss/about.scss */
+/* line 10, ../scss/_about.scss */
 #intro .title {
   font-family: "Dosis", Arial, sans-serif;
   margin-bottom: 0px;
   font-size: 45px;
   font-weight: 500;
+  color: black;
   margin-top: 20px;
 }
-/* line 18, ../scss/about.scss */
+/* line 19, ../scss/_about.scss */
 #intro .subtitle {
   font-family: "Fira Sans", Arial, sans-serif;
   text-transform: uppercase;
@@ -407,38 +428,38 @@ body canvas {
   margin-bottom: 50px;
   margin-top: 10px;
 }
-/* line 28, ../scss/about.scss */
+/* line 30, ../scss/_about.scss */
 #intro p {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 33, ../scss/about.scss */
+/* line 35, ../scss/_about.scss */
 #intro #more {
   margin-top: 50px;
   font-size: 14px;
   font-weight: 500;
 }
-/* line 38, ../scss/about.scss */
+/* line 40, ../scss/_about.scss */
 #intro #more .tag {
   margin-bottom: 15px;
 }
-/* line 42, ../scss/about.scss */
+/* line 44, ../scss/_about.scss */
 #intro #more ul {
   margin-left: 0;
 }
-/* line 44, ../scss/about.scss */
+/* line 46, ../scss/_about.scss */
 #intro #more ul li {
   list-style: none;
   padding-bottom: 10px;
   padding-top: 10px;
   border-bottom: 2px solid #ededed;
 }
-/* line 50, ../scss/about.scss */
+/* line 52, ../scss/_about.scss */
 #intro #more ul li:last-child {
   border-bottom: 0;
 }
 
-/* line 59, ../scss/about.scss */
+/* line 61, ../scss/_about.scss */
 #banner {
   background: url("/portfolio/public/media/bg/banner.jpg") no-repeat;
   background-size: cover;
@@ -446,7 +467,7 @@ body canvas {
   font-family: "Dosis", Arial, sans-serif;
   position: relative;
 }
-/* line 67, ../scss/about.scss */
+/* line 69, ../scss/_about.scss */
 #banner .title {
   color: white;
   display: inline-block;
@@ -459,29 +480,29 @@ body canvas {
   transform: rotate(90deg);
   transform-origin: left top 0;
 }
-/* line 80, ../scss/about.scss */
+/* line 82, ../scss/_about.scss */
 #banner #social {
   position: absolute;
   bottom: 15px;
   right: 30px;
 }
-/* line 86, ../scss/about.scss */
+/* line 88, ../scss/_about.scss */
 #banner #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 92, ../scss/about.scss */
+/* line 94, ../scss/_about.scss */
 #banner #social a:last-child img {
   margin-right: 0;
 }
 
-/* line 4, ../scss/project.scss */
+/* line 4, ../scss/_project.scss */
 #project .container {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 75px;
 }
-/* line 10, ../scss/project.scss */
+/* line 10, ../scss/_project.scss */
 #project #image {
   height: 3000px;
   background-color: #BEB098;
@@ -490,7 +511,7 @@ body canvas {
   margin-bottom: 50px;
   background-size: cover;
 }
-/* line 19, ../scss/project.scss */
+/* line 19, ../scss/_project.scss */
 #project #title {
   font-family: "Dosis", Arial, sans-serif;
   color: white;
@@ -499,14 +520,50 @@ body canvas {
   text-transform: uppercase;
   margin-left: 30px;
 }
-/* line 28, ../scss/project.scss */
+/* line 28, ../scss/_project.scss */
 #project #description {
   font-size: 18px;
 }
-/* line 32, ../scss/project.scss */
+/* line 32, ../scss/_project.scss */
 #project #infos {
   margin-top: 50px;
   font-weight: 500;
   font-size: 15px;
   text-align: right;
+}
+/* line 39, ../scss/_project.scss */
+#project #infos.unveil a:before {
+  top: -2px;
+}
+
+/* line 3, ../scss/_footer.scss */
+#footer {
+  padding: 0 5% 30px 5%;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 8, ../scss/_footer.scss */
+#footer hr {
+  height: 2px;
+  border: none;
+  background-color: rgba(190, 176, 152, 0.75);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+/* line 19, ../scss/_footer.scss */
+#footer.unveil .text-right {
+  font-family: "Fira Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+}
+/* line 26, ../scss/_footer.scss */
+#footer.unveil b {
+  color: #AC4759;
+}
+/* line 32, ../scss/_footer.scss */
+#footer.unveil a:before {
+  top: -2px;
 }

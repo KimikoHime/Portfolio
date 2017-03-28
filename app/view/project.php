@@ -26,8 +26,8 @@
 					<div id="description">
 						<p><?= $project->{'description'} ?></p>
 					</div>
-					<div id="infos">
-						<a href="<?= $project->{'link'} ?>" target="_blank"><?= $project->{'link'} ?></a>
+					<div id="infos" class="unveil">
+						<a href="<?= $project->{'link'} ?>" data-hover="<?= $project->{'link'} ?>" target="_blank"><?= $project->{'link'} ?></a>
 					</div>
 				</div>
 			</div>

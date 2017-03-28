@@ -34,5 +34,12 @@
       font-weight: 500;
       font-size: 15px;
       text-align: right;
+
+      &.unveil{
+        a:before{
+          top: -2px;
+        }
+        
+      }
     }
   }

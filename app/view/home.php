@@ -33,7 +33,13 @@
 
 					<div>
 						<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
-							Télécharger mon CV
+							CV
+						</a>
+						<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
+							Book
+						</a>
+						<a class="button" href="mailto:peyrardlaurine@gmail.com" target="_blank">
+							Mail
 						</a>
 					</div>
 				</div>
@@ -76,10 +82,13 @@
 										<?= $project->{'name'} ?>
 									</a>
 								</div>
-								<div>
-									<?php foreach ($project->{'tags'} as $tag): ?> 
-										<span><?= $tag->{'id'} ?></span>
+								<div class="tags">
+									<?php foreach ($project->{'tags'} as $tag): ?>
+										<span class="tag"><?= $tag->{'name'} ?></span>
 									<?php endforeach ?>
+								</div>
+								<div class="info">
+									<?= $project->{'info'} ?>
 								</div>
 							</div>
 						<?php endif ?>
@@ -103,10 +112,13 @@
 										<?= $project->{'name'} ?>
 									</a>
 								</div>
-								<div>
-									<?php foreach ($project->{'tags'} as $tag): ?> 
-										<span><?= $tag->{'id'} ?></span>
+								<div class="tags">
+									<?php foreach ($project->{'tags'} as $tag): ?>
+										<span class="tag"><?= $tag->{'name'} ?></span>
 									<?php endforeach ?>
+								</div>
+								<div class="info">
+									<?= $project->{'info'} ?>
 								</div>
 							</div>
 						<?php endif ?>
@@ -115,6 +127,17 @@
 					</div>
 				<?php endforeach ?>
 
+			</div>
+		</div>
+
+		<div id="footer" class="row unveil">
+			<hr>
+
+			<div class="small-12 medium-10 columns">
+				Codé à la main sous Atom et avec le <b>&#10084;</b>, Slim PHP, Compass et un fichier JSON - <a href="https://github.com/LaurinePeyrard/Portfolio" data-hover="Versionné sur Github" target="_blank">Versionné sur Github</a>
+			</div>
+			<div class="small-12 medium-2 columns text-right">
+				<a href="mailto:peyrardlaurine@gmail.com" data-hover="Me dire bonjour">Me dire bonjour</a>
 			</div>
 		</div>
 

@@ -16,6 +16,7 @@
 	#intro{
 		position: relative;
 		z-index: 900;
+		margin-top: 60px;
 
 		#face{
 			img{
@@ -31,6 +32,15 @@
 			font-size: 18px;
 			letter-spacing: 1.2px;
 			text-transform: uppercase;
+			color: $black;
+
+			.button{
+				margin-right: 15px;
+
+				&:last-child{
+					margin-right: 0;
+				}
+			}
 		}
 	}
 
@@ -77,6 +87,19 @@
 			
 		}
 
+		.tags{
+			.tag{
+				font-size: 13px;
+				margin-right: 15px;
+				font-weight: 400;
+				background-color: $black;
+
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+
 		.title{
 			font-family: 'Dosis', Arial, sans-serif;
 			margin-bottom: 30px;
@@ -106,10 +129,7 @@
 		&.even{
 			margin-left: 0;
 			margin-right: 5%;
-
-			.title{
-				text-align: right;
-			}
+			text-align: right;
 
 			p{
 				margin-right: 0;
@@ -134,7 +154,7 @@
 			    opacity: 0;
 			}
 
-			&:hover{
+			/*&:hover{
 				.filter{
 					background-color: rgba(0,0,0,0.8);
 					-webkit-transition: all 0.5s ease-in;
@@ -144,7 +164,7 @@
 				    opacity: 0.3;
 				}
 				
-			}
+			}*/
 
 		}
 	}
