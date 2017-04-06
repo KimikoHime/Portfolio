@@ -226,24 +226,24 @@ body canvas {
 }
 /* line 7, ../scss/_home.scss */
 #header #picture {
-  background: url("/portfolio/public/media/bg/home.jpg") no-repeat center 90%;
+  background: url("/media/bg/home.jpg") no-repeat center 90%;
   background-size: cover;
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 16, ../scss/_home.scss */
+/* line 15, ../scss/_home.scss */
 #header #intro {
   position: relative;
   z-index: 900;
   margin-top: 60px;
 }
-/* line 22, ../scss/_home.scss */
+/* line 21, ../scss/_home.scss */
 #header #intro #face img {
   width: 100px;
   height: auto;
 }
-/* line 28, ../scss/_home.scss */
+/* line 27, ../scss/_home.scss */
 #header #intro #job {
   font-family: 'Dosis', Arial, sans-serif;
   margin-top: 45px;
@@ -253,61 +253,61 @@ body canvas {
   text-transform: uppercase;
   color: black;
 }
-/* line 37, ../scss/_home.scss */
+/* line 36, ../scss/_home.scss */
 #header #intro #job .button {
   margin-right: 15px;
 }
-/* line 40, ../scss/_home.scss */
+/* line 39, ../scss/_home.scss */
 #header #intro #job .button:last-child {
   margin-right: 0;
 }
-/* line 47, ../scss/_home.scss */
+/* line 46, ../scss/_home.scss */
 #header #social {
   margin-top: 30px;
 }
-/* line 50, ../scss/_home.scss */
+/* line 49, ../scss/_home.scss */
 #header #social a img {
   width: 25px;
   margin-right: 20px;
 }
-/* line 56, ../scss/_home.scss */
+/* line 55, ../scss/_home.scss */
 #header #social a:last-child img {
   margin-right: 0;
 }
 
-/* line 68, ../scss/_home.scss */
+/* line 67, ../scss/_home.scss */
 .content hr {
   border: none;
   height: 3px;
   background-color: #ededed;
 }
-/* line 75, ../scss/_home.scss */
+/* line 74, ../scss/_home.scss */
 .content .project {
   margin: 50px 0;
   margin-left: 5%;
 }
-/* line 80, ../scss/_home.scss */
+/* line 79, ../scss/_home.scss */
 .content .project .mockup {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 83, ../scss/_home.scss */
+/* line 82, ../scss/_home.scss */
 .content .project .mockup img {
   width: 30%;
   height: auto;
 }
-/* line 91, ../scss/_home.scss */
+/* line 90, ../scss/_home.scss */
 .content .project .tags .tag {
   font-size: 13px;
   margin-right: 15px;
   font-weight: 400;
   background-color: black;
 }
-/* line 97, ../scss/_home.scss */
+/* line 96, ../scss/_home.scss */
 .content .project .tags .tag:last-child {
   margin-right: 0;
 }
-/* line 103, ../scss/_home.scss */
+/* line 102, ../scss/_home.scss */
 .content .project .title {
   font-family: 'Dosis', Arial, sans-serif;
   margin-bottom: 30px;
@@ -317,48 +317,48 @@ body canvas {
   letter-spacing: 1.5px;
   margin-top: 45px;
 }
-/* line 113, ../scss/_home.scss */
+/* line 112, ../scss/_home.scss */
 .content .project .title.unveil a:before {
   top: -3px;
 }
-/* line 120, ../scss/_home.scss */
+/* line 119, ../scss/_home.scss */
 .content .project p {
   font-size: 16px;
   margin-right: 30px;
 }
-/* line 124, ../scss/_home.scss */
+/* line 123, ../scss/_home.scss */
 .content .project p.right {
   margin-left: 30px;
 }
-/* line 129, ../scss/_home.scss */
+/* line 128, ../scss/_home.scss */
 .content .project.even {
   margin-left: 0;
   margin-right: 5%;
   text-align: right;
 }
-/* line 134, ../scss/_home.scss */
+/* line 133, ../scss/_home.scss */
 .content .project.even p {
   margin-right: 0;
   margin-left: 30px;
 }
-/* line 141, ../scss/_home.scss */
+/* line 140, ../scss/_home.scss */
 .content .project .image {
   width: 100%;
   height: 100%;
   background-size: cover;
-  /*&:hover{
-  	.filter{
-  		background-color: rgba(0,0,0,0.8);
-  		-webkit-transition: all 0.5s ease-in;
-  	    -moz-transition: all 0.55s ease-in;
-  	    -o-transition: all 0.5s ease-in;
-  	    transition: all 0.5s ease-in;
-  	    opacity: 0.3;
-  	}
-  	
-  }*/
+  			/*&:hover{
+  				.filter{
+  					background-color: rgba(0,0,0,0.8);
+  					-webkit-transition: all 0.5s ease-in;
+  				    -moz-transition: all 0.55s ease-in;
+  				    -o-transition: all 0.5s ease-in;
+  				    transition: all 0.5s ease-in;
+  				    opacity: 0.3;
+  				}
+  
+  			}*/
 }
-/* line 146, ../scss/_home.scss */
+/* line 145, ../scss/_home.scss */
 .content .project .image .filter {
   height: 100%;
   width: 100%;
@@ -369,19 +369,19 @@ body canvas {
   transition: all 0.5s ease-in;
   opacity: 0;
 }
-/* line 172, ../scss/_home.scss */
+/* line 171, ../scss/_home.scss */
 .content #thumb-row {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 75px;
   margin-bottom: 75px;
 }
-/* line 178, ../scss/_home.scss */
+/* line 177, ../scss/_home.scss */
 .content #thumb-row .thumbnail {
   border: none;
   box-shadow: none;
 }
-/* line 182, ../scss/_home.scss */
+/* line 181, ../scss/_home.scss */
 .content #thumb-row .thumbnail .title {
   font-family: 'Dosis', Arial, sans-serif;
   font-weight: 600;
@@ -393,7 +393,7 @@ body canvas {
   display: inline;
   padding: 5px 15px;
 }
-/* line 194, ../scss/_home.scss */
+/* line 193, ../scss/_home.scss */
 .content #thumb-row .thumbnail .image {
   width: 100%;
   height: 300px;
@@ -461,7 +461,7 @@ body canvas {
 
 /* line 61, ../scss/_about.scss */
 #banner {
-  background: url("/portfolio/public/media/bg/banner.jpg") no-repeat;
+  background: url("/media/bg/banner.jpg") no-repeat;
   background-size: cover;
   background-position: right center;
   font-family: "Dosis", Arial, sans-serif;
