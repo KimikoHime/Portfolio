@@ -6,9 +6,6 @@
 	<link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />
 	<link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
 
-
-	<script type="text/javascript" src="<?= REAL_PATH ?>vendor/modernizr.custom.js"></script>
-
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?= MEDIA_PATH ?>favicon/apple-icon-60x60.png">
@@ -34,7 +31,7 @@
 </head>
 
 <?php
-	$json = file_get_contents(REAL_PATH."/src/projects.json");
+	$json = file_get_contents("../src/projects.json");
 	$projects = json_decode($json);
 	$projet1name = $projects[0]->{'name'};
 ?>

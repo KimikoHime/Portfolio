@@ -25,17 +25,17 @@
 			<div id="intro">
 
 				<div id="face">
-					<img src="<?= MEDIA_PATH ?>id/face.png" alt="Illustration représentant un CV" />
+					<img src="<?= REAL_PATH ?>media/id/face.png" alt="Illustration représentant un CV" />
 				</div>
 
 				<div id="job">
 					Design &amp; intégration
 
 					<div>
-						<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
+						<a class="button" href="<?= REAL_PATH ?>public/media/CV.pdf" target="_blank">
 							CV
 						</a>
-						<a class="button" href="<?= MEDIA_PATH ?>CV.pdf" target="_blank">
+						<a class="button" href="<?= REAL_PATH ?>media/CV.pdf" target="_blank">
 							Book
 						</a>
 						<a class="button" href="mailto:peyrardlaurine@gmail.com" target="_blank">
@@ -47,13 +47,13 @@
 
 				<div id="social">
 					<a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
-						<img src="<?= MEDIA_PATH ?>graph/linkedin.png" alt="Icône de Linkedin" />
+						<img src="<?= REAL_PATH ?>media/graph/linkedin.png" alt="Icône de Linkedin" />
 					</a>
 					<a href="https://twitter.com/LaurinePeyrard" target="_blank">
-						<img src="<?= MEDIA_PATH ?>graph/twitter.png" alt="Icône de Twitter" />
+						<img src="<?= REAL_PATH ?>media/graph/twitter.png" alt="Icône de Twitter" />
 					</a>
 					<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
-						<img src="<?= MEDIA_PATH ?>graph/instagram.png" alt="Icône d'Instagram" />
+						<img src="<?= REAL_PATH ?>media/graph/instagram.png" alt="Icône d'Instagram" />
 					</a>
 				</div>
 			</div>
@@ -70,8 +70,8 @@
 			<div class="container">
 
 
-				<?php foreach ($projects as $project): ?> 
-					
+				<?php foreach ($projects as $project): ?>
+
 
 					<div class="row project valign wrapper <?= $project->{'id'}%2==0?'':'even' ?>">
 
@@ -94,7 +94,7 @@
 						<?php endif ?>
 
 
-						<div class="small-12 medium-6 large-8 columns 
+						<div class="small-12 medium-6 large-8 columns
 						<?= $project->{'id'}%2==0?'align-right':'align-left' ?>">
 							<a href="<?= PUBLIC_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
 								<div class="image project1" style="background-image: url('<?= PROJECT_PATH.$project->{'thumb'} ?>');">
