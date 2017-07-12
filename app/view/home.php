@@ -1,7 +1,7 @@
 <?php
 
-	include('template/header.php');
-	$active = "home";
+include('template/header.php');
+$active = "home";
 ?>
 
 <body>
@@ -13,20 +13,12 @@
 
 	<div id="header" class="row wrapper">
 
-		<div class="small-12 medium-6 large-8 columns align-left">
-			<div id="picture">
-				<p class="hidden">bg</p>
-			</div>
-		</div>
 
-
-		<div class="small-12 medium-6 large-4 columns valign full-height">
+		<div class="small-12 medium-6 columns valign full-height">
 
 			<div id="intro">
 
-				<div id="face">
-					<img src="<?= REAL_PATH ?>media/id/face.png" alt="Illustration représentant un CV" />
-				</div>
+				
 
 				<div id="job">
 					Design &amp; intégration
@@ -42,6 +34,10 @@
 							Mail
 						</a>
 					</div>
+				</div>
+
+				<div id="face">
+					<img src="<?= REAL_PATH ?>media/id/face.png" alt="Illustration représentant un CV" />
 				</div>
 
 
@@ -62,86 +58,67 @@
 
 		</div>
 
+		<div class="small-12 medium-6 columns no-padding">
+			<div id="picture">
+				<p class="hidden">bg</p>
+			</div>
+		</div>
+
 
 		<div class="clear"></div>
-		</div>
+	</div>
 
-		<div class="content">
-			<div class="container">
-
-
-				<?php foreach ($projects as $project): ?>
+	<div class="content">
+		<div class="container">
 
 
-					<div class="row project valign wrapper <?= $project->{'id'}%2==0?'':'even' ?>">
+			<?php foreach ($projects as $project): ?>
 
-						<?php if($project->{'id'}%2 == 0): ?>
-							<div class="small-12 medium-6 large-4 columns">
-								<div class="title unveil" >
-									<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
-										<?= $project->{'name'} ?>
-									</a>
-								</div>
-								<div class="tags">
-									<?php foreach ($project->{'tags'} as $tag): ?>
-										<span class="tag"><?= $tag->{'name'} ?></span>
-									<?php endforeach ?>
-								</div>
-								<div class="info">
-									<?= $project->{'info'} ?>
-								</div>
+				<div class="row project valign wrapper">
+
+					
+					<div class="small-12 medium-6 columns">
+						<div class="prompt">
+							<div class="title unveil" >
+								<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
+									<?= $project->{'name'} ?>
+								</a>
 							</div>
-						<?php endif ?>
-
-
-						<div class="small-12 medium-6 large-8 columns
-						<?= $project->{'id'}%2==0?'align-right':'align-left' ?>">
-							<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
-								<div class="image project1" style="background-image: url('<?= REAL_PATH."media/projects/".$project->{'thumb'} ?>');">
-									<div class="filter">
-										<span>Voir le projet &#65515;</span>
-									</div>
-								</div>
-							</a>
+							<div class="tags">
+								<?php foreach ($project->{'tags'} as $tag): ?>
+									<span class="tag"><?= $tag->{'name'} ?></span>
+								<?php endforeach ?>
+							</div>
+							<div class="info">
+								<?= $project->{'info'} ?>
+							</div>
 						</div>
+					</div>
+					
 
-						<?php if($project->{'id'}%2 == 1): ?>
-							<div class="small-12 medium-6 large-4 columns">
-								<div class="title unveil" >
-									<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
-										<?= $project->{'name'} ?>
-									</a>
-								</div>
-								<div class="tags">
-									<?php foreach ($project->{'tags'} as $tag): ?>
-										<span class="tag"><?= $tag->{'name'} ?></span>
-									<?php endforeach ?>
-								</div>
-								<div class="info">
-									<?= $project->{'info'} ?>
+					<div class="small-12 medium-6 columns no-padding">
+						<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
+							<div class="image project1" style="background-image: url('<?= REAL_PATH."media/projects/".$project->{'thumb'} ?>');">
+								<div class="filter">
+									<span>Voir le projet &#65515;</span>
 								</div>
 							</div>
-						<?php endif ?>
-
-
+						</a>
 					</div>
-				<?php endforeach ?>
-
-			</div>
+			
+				</div>
+			<?php endforeach ?>
 		</div>
 
-		<div id="footer" class="row unveil">
-			<hr>
 
-			<div class="small-12 medium-10 columns">
-				Codé à la main sous Atom et avec le <b>&#10084;</b>, Slim PHP, Compass et un fichier JSON - <a href="https://github.com/LaurinePeyrard/Portfolio" data-hover="Versionné sur Github" target="_blank">Versionné sur Github</a>
-			</div>
-			<div class="small-12 medium-2 columns text-right">
-				<a href="mailto:peyrardlaurine@gmail.com" data-hover="Me dire bonjour">Me dire bonjour</a>
-			</div>
-		</div>
+		<!--<div id="footer" class="row unveil">
+			Codé sous Atom et avec le <b>&#10084;</b><br/>Slim PHP, Compass et un fichier JSON - <a href="https://github.com/LaurinePeyrard/Portfolio" data-hover="Versionné sur Github" target="_blank">Github</a> <a href="mailto:peyrardlaurine@gmail.com" id="contact" data-hover="Me dire bonjour">Me dire bonjour</a>
+		</div>-->
 
-		<?php include('template/footer.php') ?>
+	</div>
+</div>
 
-	</body>
+<?php include('template/footer.php') ?>
+
+</body>
 </html>

@@ -1,13 +1,18 @@
 @import "tools/variables";
 
 .menu{
-  background-color: white;
+  //background-color: white;
   font-family: 'Dosis', Arial, sans-serif;
   position: fixed;
   width: 100%;
-  background-color: white;
   z-index: 99999;
-  padding-left: 5%;
+  
+
+  .bg{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
 
   // LINKS
   nav a:hover,

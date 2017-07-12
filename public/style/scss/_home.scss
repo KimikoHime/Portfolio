@@ -18,9 +18,21 @@
 		margin-top: 60px;
 
 		#face{
+			width: 150px;
+			height: 150px;
+			background-color: white;
+			border-radius: 300px;
+			position: fixed;
+		    top: 50%;
+		    left: 50%;
+		    margin-left: -75px;
+		    margin-top: -75px;
+		    text-align: center;
+
 			img{
-				width: 100px;
+				width: 75px;
 				height: auto;
+				margin-top: 30px;
 			}
 		}
 
@@ -64,6 +76,8 @@
 
 
 .content{
+	padding: 0;
+
 	hr{
 		border: none;
 		height: 3px;
@@ -72,9 +86,7 @@
 
 
 	.project{
-		margin: 50px 0;
-		margin-left: 5%;
-
+		//margin: 50px 0;
 
 		.mockup{
 			margin-right: auto;
@@ -84,6 +96,12 @@
 				height: auto;
 			}
 
+		}
+
+		.prompt{
+			max-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.tags{

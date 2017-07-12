@@ -1,7 +1,22 @@
 [
     {
         "id": 0,
-        "name": "WhatUWear mobile",
+        "name": "ASKO",
+        "description": "Réalisation d'un kakemono (roll-up) pour la promotion de l'entreprise : signalétique à l'entrée des locaux aux Papeteries Image Factory d'Annecy. Design, vérification qualité et préparation des sources pour l'impression chez le prestataire. Reprise de l'identité visuelle du site vitrine, développé précédement par mes soins.",
+        "info": "Réalisation d'un kakemono (roll-up) pour la promotion de l'entreprise",
+        "link": "https://aboutgoods-company.com",
+        "thumb": "kakemono-full.jpg",
+        "color": "#da4453",
+        "image": "kakemono-details.jpg",
+        "tags":[
+            {"name": "print"},
+            {"name": "design"}
+        ]
+    },
+
+    {
+        "id": 1,
+        "name": "WhatUWear",
         "description": "Design de l'interface Android d'une application de gestion de dressing, en collaboration avec le développeur Android. Prototypage dynamique de l'application via Marvel app. Finitions de l'intégration sur mobile via le storyboard et réalisation des visuels de promotion pour le Play Store.",
         "info": "Design d'une application Android en collaboration avec le développeur, finition de l'intégration",
         "link": "http://google.fr",
@@ -15,72 +30,60 @@
             {"name": "intégration"}   
         ]
     },
-    {
-        "id": 1,
-        "name": "WhatUWear web",
-        "description": "Design et intégration responsive des interfaces web liées à l'application mobile : landing promotionnelle de l'application, pages de partage de vêtements et de tenues. Mise en place au sein d'un projet Symfony existant via des données serveur en JSON.",
-        "info": "Design et intégration responsive des interfaces web à l'application mobile",
-        "link": "http://google.fr",
-        "thumb": "wuw-web.jpg",
-        "color": "#969696",
-        "image": "cat.jpg",
-        "mockup": "wuw-mobile-mock.png",
-        "tags":[
-            {"name": "web"},
-            {"name": "design"},
-            {"name": "intégration"}   
-        ]
-
-    },
+    
+    
+    
     {
         "id": 2,
-        "name": "Applications KOA",
-        "description": "Design et intégration du site vitrine des applications mobiles de la famille KOA. Utilisation de Slim PHP pour la structure du site et les routes, du CMS Cockpit pour la gestion dynamique et simplifiée du contenu, et de Foundation pour le responsive.",
-        "info": "Design et intégration dynamique du site vitrine des applications mobile KOA",
+        "name": "Startup Weekend",
+        "description": "Identité graphique personnelle : création d'un logo, CV et de la papèterie associée, création de petits visuels auto-collants et impression",
+        "info": "Identité graphique personnelle : choix des couleurs et polices, création d'un logo et de la papèterie associée.",
         "link": "http://google.fr",
-        "thumb": "koa.jpg",
-        "color": "#669AE1",
-        "image": "cat.jpg",
-        "mockup": "wuw-mobile-mock.png",
-        "tags":[
-            {"name": "web"},
-            {"name": "design"},
-            {"name": "intégration"}   
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Kakemono",
-        "description": "Réalisation d'un kakemono (roll-up) pour la promotion de l'entreprise : signalétique à l'entrée des locaux aux Papeteries Image Factory d'Annecy. Design, vérification qualité et préparation des sources pour l'impression chez le prestataire. Reprise de l'identité visuelle du site vitrine, développé précédement par mes soins.",
-        "info": "Réalisation d'un kakemono (roll-up) pour la promotion de l'entreprise",
-        "link": "https://aboutgoods-company.com",
-        "thumb": "kakemono-full.jpg",
-        "color": "#da4453",
-        "image": "kakemono-details.jpg",
-        "tags":[
-            {"name": "print"},
-            {"name": "design"}
-        ]
-    },
-    {
-        "id": 4,
-        "name": "L'esprit start-up",
-        "description": "Quelques stickers humoristiques que j'avais créé suite à une private joke avec mes collègues de bureau, et que j'ai finalement réutilisé dans un article promotionnel et décalé que j'ai écris pour le blog de l'entreprise.",
-        "info": "Design de stickers humoristiques et écriture d'un article sur le travail en start-up",
-        "link": "https://medium.com/blogaboutgoodscompany/3-phrases-typiques-de-la-start-up-cd983566a52b#.eze651bqr",
-        "thumb": "stickers-full.jpg",
+        "thumb": "wuw-mobile.jpg",
         "color": "#969696",
         "image": "wuw-mobile.jpg",
         "tags":[
             {"name": "print"},
             {"name": "design"},
-            {"name": "écriture"}
+            {"name": "personnel"}
         ]
     },
-    
+
+    {
+        "id": 3,
+        "name": "Branding",
+        "description": "Identité graphique personnelle : création d'un logo, CV et de la papèterie associée, création de petits visuels auto-collants et impression",
+        "info": "Identité graphique personnelle : choix des couleurs et polices, création d'un logo et de la papèterie associée.",
+        "link": "http://google.fr",
+        "thumb": "wuw-mobile.jpg",
+        "color": "#969696",
+        "image": "wuw-mobile.jpg",
+        "tags":[
+            {"name": "print"},
+            {"name": "design"},
+            {"name": "personnel"}
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "KOA Apps",
+        "description": "Identité graphique personnelle : création d'un logo, CV et de la papèterie associée, création de petits visuels auto-collants et impression",
+        "info": "Identité graphique personnelle : choix des couleurs et polices, création d'un logo et de la papèterie associée.",
+        "link": "http://google.fr",
+        "thumb": "wuw-mobile.jpg",
+        "color": "#969696",
+        "image": "wuw-mobile.jpg",
+        "tags":[
+            {"name": "print"},
+            {"name": "design"},
+            {"name": "personnel"}
+        ]
+    },
+
     {
         "id": 5,
-        "name": "Branding",
+        "name": "Esprit startup",
         "description": "Identité graphique personnelle : création d'un logo, CV et de la papèterie associée, création de petits visuels auto-collants et impression",
         "info": "Identité graphique personnelle : choix des couleurs et polices, création d'un logo et de la papèterie associée.",
         "link": "http://google.fr",
