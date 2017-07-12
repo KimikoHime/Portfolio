@@ -3,26 +3,26 @@
 	<title>Laurine Peyrard | Portfolio</title>
 
 	<!-- Style -->
-	<link href="<?= STYLE_PATH ?>foundation.min.css" rel="stylesheet" />
-	<link href='<?= STYLE_PATH ?>main.css' rel='stylesheet' type='text/css'>
+	<link href="<?= REAL_PATH ?>style/css/foundation.min.css" rel="stylesheet" />
+	<link href='<?= REAL_PATH ?>style/css/main.css' rel='stylesheet' type='text/css'>
 
 	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="<?= MEDIA_PATH ?>favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="<?= MEDIA_PATH ?>favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="<?= MEDIA_PATH ?>favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="<?= MEDIA_PATH ?>favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="<?= MEDIA_PATH ?>favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="<?= MEDIA_PATH ?>favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="<?= MEDIA_PATH ?>favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="<?= MEDIA_PATH ?>favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="<?= MEDIA_PATH ?>favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="<?= MEDIA_PATH ?>favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?= MEDIA_PATH ?>favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="<?= MEDIA_PATH ?>favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?= MEDIA_PATH ?>favicon/favicon-16x16.png">
-	<link rel="manifest" href="<?= MEDIA_PATH ?>favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="<?= REAL_PATH ?>media/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="<?= REAL_PATH ?>media/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?= REAL_PATH ?>media/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="<?= REAL_PATH ?>media/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?= REAL_PATH ?>media/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="<?= REAL_PATH ?>media/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="<?= REAL_PATH ?>media/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?= REAL_PATH ?>media/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?= REAL_PATH ?>media/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="<?= REAL_PATH ?>media/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?= REAL_PATH ?>media/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="<?= REAL_PATH ?>media/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?= REAL_PATH ?>media/favicon/favicon-16x16.png">
+	<link rel="manifest" href="<?= REAL_PATH ?>media/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="<?= MEDIA_PATH ?>favicon/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="<?= REAL_PATH ?>media/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Fonts -->

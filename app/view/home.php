@@ -78,7 +78,7 @@
 						<?php if($project->{'id'}%2 == 0): ?>
 							<div class="small-12 medium-6 large-4 columns">
 								<div class="title unveil" >
-									<a href="<?= PUBLIC_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
+									<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
 										<?= $project->{'name'} ?>
 									</a>
 								</div>
@@ -96,8 +96,8 @@
 
 						<div class="small-12 medium-6 large-8 columns
 						<?= $project->{'id'}%2==0?'align-right':'align-left' ?>">
-							<a href="<?= PUBLIC_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
-								<div class="image project1" style="background-image: url('<?= PROJECT_PATH.$project->{'thumb'} ?>');">
+							<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
+								<div class="image project1" style="background-image: url('<?= REAL_PATH."media/projects/".$project->{'thumb'} ?>');">
 									<div class="filter">
 										<span>Voir le projet &#65515;</span>
 									</div>
@@ -108,7 +108,7 @@
 						<?php if($project->{'id'}%2 == 1): ?>
 							<div class="small-12 medium-6 large-4 columns">
 								<div class="title unveil" >
-									<a href="<?= PUBLIC_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
+									<a href="<?= REAL_PATH ?>projet/<?= $project->{'id'} ?>" data-hover="<?= $project->{'name'} ?>">
 										<?= $project->{'name'} ?>
 									</a>
 								</div>

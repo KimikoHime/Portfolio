@@ -48,16 +48,16 @@
 
 			<div id="social">
 				<a href="https://fr.linkedin.com/in/laurinepeyrard" target="_blank">
-					<img src="<?= MEDIA_PATH ?>graph/linkedin-w.png" alt="Icône de Linkedin" />
+					<img src="<?= REAL_PATH ?>media/graph/linkedin-w.png" alt="Icône de Linkedin" />
 				</a>
 				<a href="https://twitter.com/LaurinePeyrard" target="_blank">
-					<img src="<?= MEDIA_PATH ?>graph/twitter-w.png" alt="Icône de Twitter" />
+					<img src="<?= REAL_PATH ?>media/graph/twitter-w.png" alt="Icône de Twitter" />
 				</a>
 				<a href="https://www.instagram.com/kimiko_dayo/" target="_blank">
-					<img src="<?= MEDIA_PATH ?>graph/instagram-w.png" alt="Icône d'Instagram" />
+					<img src="<?= REAL_PATH ?>media/graph/instagram-w.png" alt="Icône d'Instagram" />
 				</a>
 				<a href="https://medium.com/@peyrardlaurine" target="_blank">
-					<img src="<?= MEDIA_PATH ?>graph/medium-w.png" alt="Icône de Linkedin" />
+					<img src="<?= REAL_PATH ?>media/graph/medium-w.png" alt="Icône de Linkedin" />
 				</a>
 			</div>
 		</div>
